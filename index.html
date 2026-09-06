@@ -304,6 +304,23 @@ body.showhow #howto{display:block}
 .chem .exp.bad{color:var(--red);background:var(--red-bg);display:inline-block;
   padding:2px 8px;border-radius:6px}
 
+
+/* colour identity for the note sheets */
+.sheetwrap .rcat{border-left:4px solid var(--accent)}
+.sheetwrap .rcat h3{color:var(--accent);border-bottom-color:var(--line)}
+.sheetwrap .rcat h3 span{color:var(--muted)}
+.sheetwrap .rt-h{background:color-mix(in srgb, var(--accent) 12%, #fff)}
+.sheetwrap .rt-h span{color:var(--accent)}
+.sheetwrap .rrow .rc,.sheetwrap .rt-r span:first-child{color:var(--accent)}
+.sheetwrap .jl{color:var(--accent);background:color-mix(in srgb, var(--accent) 8%, #fff);
+  border-color:color-mix(in srgb, var(--accent) 25%, #fff)}
+.sheetwrap .jl:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.sheetwrap .rt-r span[data-l]:not([data-l=""]):not(:first-child)::before{color:var(--accent);opacity:.75}
+@supports not (color: color-mix(in srgb, red 50%, blue)){
+  .sheetwrap .rt-h{background:#EDF2FB}
+  .sheetwrap .jl{background:#F2F6FC;border-color:var(--line)}
+}
+
 /* About this resource */
 .about{background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy);
   border-radius:10px;padding:18px 20px;margin:26px auto 0;max-width:1080px}
