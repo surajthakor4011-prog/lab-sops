@@ -1,0 +1,468 @@
+{
+ "purpose": "Possible duplicate chemical records. NOTHING has been merged, deleted or renamed; all 128 records remain. The owner decides whether each group is one stock, different grades, or different bottles.",
+ "groups": 14,
+ "records_involved": 32,
+ "records_merged": 0,
+ "groups_detail": [
+  {
+   "group": "Isoamyl alcohol",
+   "flagged_by": "audit",
+   "reason": "Name variant (hyphenation/capitalisation) of the same compound; different \"use\" text.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 53,
+     "name": "Iso-Amyl Alcohol",
+     "original_category": "Solvents",
+     "primary_category": "Solvents",
+     "hazard_level": "mod",
+     "storage": "Flammables cabinet",
+     "use": "Nucleic acid extraction reagent",
+     "expiry": null
+    },
+    {
+     "index": 54,
+     "name": "Isoamyl alcohol",
+     "original_category": "Solvents",
+     "primary_category": "Solvents",
+     "hazard_level": "mod",
+     "storage": "Flammables cabinet",
+     "use": "Organic solvent",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Dipotassium hydrogen phosphate",
+   "flagged_by": "audit",
+   "reason": "Synonymous names (orthophosphate = phosphate; \"dibasic\" = hydrogen phosphate). Record 89 states anhydrous; 26 and 27 state no hydrate. Record 89 also carries a different original category.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 26,
+     "name": "Di-potassium hydrogen orthophosphate",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Phosphate buffers; media component",
+     "expiry": "07/2027"
+    },
+    {
+     "index": 27,
+     "name": "Di-potassium hydrogen phosphate",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Phosphate buffers; media component",
+     "expiry": null
+    },
+    {
+     "index": 89,
+     "name": "Potassium phosphate Dibasic Anhydrous",
+     "original_category": "Buffers & salts",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Phosphate buffers; media",
+     "expiry": "02/2027"
+    }
+   ]
+  },
+  {
+   "group": "Disodium hydrogen phosphate (anhydrous)",
+   "flagged_by": "audit + this phase",
+   "reason": "Synonymous names; all three state anhydrous. Record 29 is GR grade; 28 and 111 state no grade. Record 111 was not in the Phase 01 list.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 28,
+     "name": "Di-sodium hydrogen orthophosphate anhydrous",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Phosphate buffers (PBS)",
+     "expiry": null
+    },
+    {
+     "index": 29,
+     "name": "Di-sodium hydrogen phosphate anhydrous GR",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Phosphate buffers (PBS)",
+     "expiry": null
+    },
+    {
+     "index": 111,
+     "name": "Sodium phosphate Dibasic Anhydrous",
+     "original_category": "Buffers & salts",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Phosphate buffering agent",
+     "expiry": "10/2027"
+    }
+   ]
+  },
+  {
+   "group": "Potassium dichromate",
+   "flagged_by": "audit",
+   "reason": "Same compound; record 84 is AR grade, record 83 states no grade.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 83,
+     "name": "Potassium dichromate (K2Cr2O7)",
+     "original_category": "Oxidisers",
+     "primary_category": "Oxidisers & reactive chemicals",
+     "hazard_level": "high",
+     "storage": "RT, away from organics",
+     "use": "Oxidising agent; chromic cleaning solution",
+     "expiry": null
+    },
+    {
+     "index": 84,
+     "name": "Potassium dichromate AR",
+     "original_category": "Oxidisers",
+     "primary_category": "Oxidisers & reactive chemicals",
+     "hazard_level": "high",
+     "storage": "RT, away from organics",
+     "use": "Oxidising agent; COD and titrations",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Sodium dodecyl sulphate (SDS)",
+   "flagged_by": "audit, extended",
+   "reason": "Four names for the same compound (sodium lauryl sulphate = sodium dodecyl sulphate = SDS). Record 108 is AR, 109 is GR, 60 and 106 state no grade. Phase 01 listed only 108 and 109.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 60,
+     "name": "Lauryl sulphate sodium salt (SDS)",
+     "original_category": "Detergents / molecular biology",
+     "primary_category": "Detergents & surfactants",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Denaturing detergent (DNA extraction, SDS-PAGE)",
+     "expiry": null
+    },
+    {
+     "index": 106,
+     "name": "Sodium dodecyl sulphate (SDS)",
+     "original_category": "Detergents / molecular biology",
+     "primary_category": "Detergents & surfactants",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Denaturing detergent (DNA extraction, SDS-PAGE)",
+     "expiry": null
+    },
+    {
+     "index": 108,
+     "name": "Sodium Lauryl Sulphate AR",
+     "original_category": "Detergents",
+     "primary_category": "Detergents & surfactants",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Detergent / SDS-PAGE (1 unit)",
+     "expiry": null
+    },
+    {
+     "index": 109,
+     "name": "Sodium lauryl sulphate GR (SDS)",
+     "original_category": "Detergents / molecular biology",
+     "primary_category": "Detergents & surfactants",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Denaturing detergent (DNA extraction, SDS-PAGE)",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Sodium diethyl dithiocarbamate",
+   "flagged_by": "audit",
+   "reason": "Same compound; record 103 is AR grade. The two carry different original categories (Assay reagents / Virology).",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 102,
+     "name": "Sodium diethyl dithiocarbamate",
+     "original_category": "Assay reagents",
+     "primary_category": "Assay reagents",
+     "hazard_level": "mod",
+     "storage": "RT, dry, closed",
+     "use": "Sap antioxidant / chelator",
+     "expiry": null
+    },
+    {
+     "index": 103,
+     "name": "Sodium diethyl dithiocarbamate AR",
+     "original_category": "Virology (sap antioxidant)",
+     "primary_category": "Virology reagents",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Antioxidant in virus sap extraction",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "pH indicator paper",
+   "flagged_by": "audit",
+   "reason": "A named product and a generic entry; possibly the same stock. They carry different original categories and therefore different primary categories.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 49,
+     "name": "HiIndicator pH paper",
+     "original_category": "Consumables",
+     "primary_category": "General & miscellaneous",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Quick pH checks",
+     "expiry": "05/2027"
+    },
+    {
+     "index": 74,
+     "name": "pH indicator papers",
+     "original_category": "Stains & indicators",
+     "primary_category": "Stains, dyes & indicators",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Quick pH checks",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Bis-acrylamide",
+   "flagged_by": "new in this phase",
+   "reason": "N,N′-methylene-bis-acrylamide is the full name of bis-acrylamide.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 9,
+     "name": "Bis N,N'-methylene bis-acrylamide",
+     "original_category": "Molecular biology (PAGE)",
+     "primary_category": "Molecular biology reagents",
+     "hazard_level": "high",
+     "storage": "RT, dark, dry",
+     "use": "Cross-linker for PAGE gels",
+     "expiry": null
+    },
+    {
+     "index": 10,
+     "name": "Bis-acrylamide",
+     "original_category": "Molecular biology (PAGE)",
+     "primary_category": "Molecular biology reagents",
+     "hazard_level": "high",
+     "storage": "RT, dark, dry",
+     "use": "Cross-linker for PAGE gels",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Polysorbate 20 (Tween 20)",
+   "flagged_by": "new in this phase",
+   "reason": "Tween 20 is the trade name of polysorbate 20. The two carry different original categories.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 80,
+     "name": "Polysorbate 20 (Tween 20)",
+     "original_category": "Surfactants",
+     "primary_category": "Detergents & surfactants",
+     "hazard_level": "low",
+     "storage": "RT, closed",
+     "use": "Non-ionic surfactant; wash buffer",
+     "expiry": null
+    },
+    {
+     "index": 125,
+     "name": "Tween 20",
+     "original_category": "Detergents & surfactants (ELISA washes)",
+     "primary_category": "Detergents & surfactants",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "ELISA/wash buffers (PBS-T)",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Sodium hydrogen carbonate",
+   "flagged_by": "new in this phase",
+   "reason": "Sodium bicarbonate = sodium hydrogen carbonate; both records are AR grade. Strongest candidate for a true duplicate.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 100,
+     "name": "Sodium bicarbonate AR",
+     "original_category": "Salts",
+     "primary_category": "Salts",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Buffering; ELISA coating buffer component",
+     "expiry": null
+    },
+    {
+     "index": 107,
+     "name": "Sodium hydrogen carbonate AR",
+     "original_category": "Salts",
+     "primary_category": "Salts",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Buffering; neutralisation",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Citric acid",
+   "flagged_by": "new in this phase",
+   "reason": "Record 24 is anhydrous GR; record 23 states neither hydrate nor grade.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 23,
+     "name": "Citric acid",
+     "original_category": "Acids & bases",
+     "primary_category": "Acids & bases",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Buffer preparation; acidulant",
+     "expiry": null
+    },
+    {
+     "index": 24,
+     "name": "Citric acid anhydrous GR",
+     "original_category": "Acids & bases",
+     "primary_category": "Acids & bases",
+     "hazard_level": "low",
+     "storage": "RT, dry",
+     "use": "Buffer preparation (analytical grade)",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Sodium dihydrogen orthophosphate",
+   "flagged_by": "new in this phase",
+   "reason": "Record 105 is the dihydrate, LR grade; record 104 states neither.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 104,
+     "name": "Sodium dihydrogen orthophosphate",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Phosphate buffers",
+     "expiry": null
+    },
+    {
+     "index": 105,
+     "name": "Sodium dihydrogen orthophosphate dihydrate LR",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "low",
+     "storage": "RT",
+     "use": "Phosphate buffers",
+     "expiry": null
+    }
+   ]
+  },
+  {
+   "group": "Sodium tetraborate (borax)",
+   "flagged_by": "new in this phase",
+   "reason": "Borax is usually the decahydrate; record 30 does not state the hydrate. Possibly the same material.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 30,
+     "name": "Di-sodium tetraborate (Borax)",
+     "original_category": "Buffers",
+     "primary_category": "Buffers",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Borate buffers; boron source",
+     "expiry": null
+    },
+    {
+     "index": 114,
+     "name": "Sodium Tetraborate Decahydrate",
+     "original_category": "Buffers & salts",
+     "primary_category": "Buffers",
+     "hazard_level": "mod",
+     "storage": "RT, dry",
+     "use": "Borate buffers (Borax decahydrate)",
+     "expiry": "08/2027"
+    }
+   ]
+  },
+  {
+   "group": "Potassium hydroxide",
+   "flagged_by": "new in this phase",
+   "reason": "Same compound in different physical forms (liquid, pellets) — probably separate stocks, listed for completeness.",
+   "action": "OWNER REVIEW REQUIRED",
+   "status": "open",
+   "merged": false,
+   "records": [
+    {
+     "index": 55,
+     "name": "KOH - liquid",
+     "original_category": "Acids & alkalis",
+     "primary_category": "Acids & bases",
+     "hazard_level": "high",
+     "storage": "Corrosives cabinet, closed",
+     "use": "Fungal clearing; pH adjustment",
+     "expiry": null
+    },
+    {
+     "index": 86,
+     "name": "Potassium hydroxide (KOH) (Pellet)",
+     "original_category": "Acids & bases",
+     "primary_category": "Acids & bases",
+     "hazard_level": "high",
+     "storage": "RT, airtight",
+     "use": "KOH mounts for fungal microscopy; pH adjustment",
+     "expiry": null
+    }
+   ]
+  }
+ ]
+}

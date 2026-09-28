@@ -1,0 +1,108 @@
+{
+ "recorded": "2026-09-21",
+ "phase": "05 — after",
+ "files": {
+  "sops": {
+   "sha256_before": "f22201162ae4daed393efdbe61a8a9ff0dab3a4d80a45fe8f69821368532ec36",
+   "sha256_after": "f22201162ae4daed393efdbe61a8a9ff0dab3a4d80a45fe8f69821368532ec36",
+   "byte_identical": true,
+   "bytes_before": 36080,
+   "bytes_after": 36080
+  },
+  "chemicals": {
+   "sha256_before": "7f2d74cc4fffa575329d06901257770b55afc1fd5674c420b18f1c872c0058f7",
+   "sha256_after": "878ac861d9271db02dc41e3846c95bbca8f71674f1e1c180eef941500c37f5ab",
+   "byte_identical": false,
+   "bytes_before": 22335,
+   "bytes_after": 38770
+  },
+  "formulations": {
+   "sha256_before": "862c62e000aac3b0d9b9d9405e6d53e875f8da9fa2765393f7f3f56179acaf53",
+   "sha256_after": "862c62e000aac3b0d9b9d9405e6d53e875f8da9fa2765393f7f3f56179acaf53",
+   "byte_identical": true,
+   "bytes_before": 8588,
+   "bytes_after": 8588
+  },
+  "protocols": {
+   "sha256_before": "582de347bb83709d48e270d760a38e7551400fc7a6350a793f96b4ef8122bef6",
+   "sha256_after": "582de347bb83709d48e270d760a38e7551400fc7a6350a793f96b4ef8122bef6",
+   "byte_identical": true,
+   "bytes_before": 108180,
+   "bytes_after": 108180
+  },
+  "safety": {
+   "sha256_before": "24c553c18f00a93ce24bbfea342020f9fa6688ed6d9f1f03bbbc4fc7724f2403",
+   "sha256_after": "24c553c18f00a93ce24bbfea342020f9fa6688ed6d9f1f03bbbc4fc7724f2403",
+   "byte_identical": true,
+   "bytes_before": 14851,
+   "bytes_after": 14851
+  },
+  "troubleshooting": {
+   "sha256_before": "3574a113afaed3072d6177dd1b6e97b785886ec48266573b108d6275a90c3bb7",
+   "sha256_after": "3574a113afaed3072d6177dd1b6e97b785886ec48266573b108d6275a90c3bb7",
+   "byte_identical": true,
+   "bytes_before": 50392,
+   "bytes_after": 50392
+  },
+  "quiz-nematology": {
+   "sha256_before": "5433f9ee1fa73c62f0e788e6841587b08d042cf97648615b26079e807f8c5d51",
+   "sha256_after": "5433f9ee1fa73c62f0e788e6841587b08d042cf97648615b26079e807f8c5d51",
+   "byte_identical": true,
+   "bytes_before": 14045,
+   "bytes_after": 14045
+  },
+  "questions": {
+   "sha256_before": "1e00f3986f001644835d6fcc832c6490f4093700df10fc5a8d0af5c7d6a3fa80",
+   "sha256_after": "1e00f3986f001644835d6fcc832c6490f4093700df10fc5a8d0af5c7d6a3fa80",
+   "byte_identical": true,
+   "bytes_before": 2816320,
+   "bytes_after": 2816320
+  },
+  "references": {
+   "sha256_before": "7f89bac525987160c1abb13926c7729b492f2ee44165cbdde9539f57861e9c25",
+   "sha256_after": "7f89bac525987160c1abb13926c7729b492f2ee44165cbdde9539f57861e9c25",
+   "byte_identical": true,
+   "bytes_before": 1113583,
+   "bytes_after": 1113583
+  }
+ },
+ "chemicals": {
+  "records_before": 128,
+  "records_after": 128,
+  "order_and_names_identical": true,
+  "every_original_field_identical": true,
+  "fields_added": [
+   "category",
+   "storage",
+   "tags"
+  ],
+  "grade_hazard_storage_text_unchanged": true,
+  "records_merged": 0,
+  "records_deleted": 0
+ },
+ "totals_after": {
+  "sops": 26,
+  "chemicals": 128,
+  "formulations": 25,
+  "protocols": 46,
+  "safety": 10,
+  "troubleshooting": 76,
+  "questions": 8156,
+  "reference_sheets": 27,
+  "diseases": 223,
+  "crops": 45
+ },
+ "totals_before": {
+  "sops": 26,
+  "chemicals": 128,
+  "formulations": 25,
+  "protocols": 46,
+  "safety": 10,
+  "troubleshooting": 76,
+  "questions": 8156,
+  "reference_sheets": 27,
+  "diseases": 223,
+  "crops": 45
+ },
+ "totals_unchanged": true
+}

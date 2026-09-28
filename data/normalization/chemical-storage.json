@@ -1,0 +1,434 @@
+{
+ "purpose": "Structured reading of the original free-text storage values. Only explicitly written terms are classified; nothing is inferred. Anything not on the whitelists is kept verbatim in notes.",
+ "whitelists": {
+  "temperature": [
+   "2–8 °C",
+   "Cold",
+   "RT"
+  ],
+  "location": [
+   "corrosives cabinet",
+   "dedicated gel area only",
+   "flammables area",
+   "flammables cabinet"
+  ],
+  "conditions": [
+   "cool",
+   "dark",
+   "dry",
+   "ventilated",
+   "cool & dark (split into cool, dark)"
+  ],
+  "container": [
+   "airtight",
+   "closed",
+   "sealed",
+   "tightly closed",
+   "tightly sealed"
+  ]
+ },
+ "before": {
+  "distinct_raw_values": 34
+ },
+ "values": [
+  {
+   "raw": "RT, dry",
+   "records": 38,
+   "structured": {
+    "raw": "RT, dry",
+    "temperature": "RT",
+    "conditions": [
+     "dry"
+    ]
+   }
+  },
+  {
+   "raw": "RT",
+   "records": 30,
+   "structured": {
+    "raw": "RT",
+    "temperature": "RT"
+   }
+  },
+  {
+   "raw": "RT, dark",
+   "records": 8,
+   "structured": {
+    "raw": "RT, dark",
+    "temperature": "RT",
+    "conditions": [
+     "dark"
+    ]
+   }
+  },
+  {
+   "raw": "RT, dry, closed",
+   "records": 6,
+   "structured": {
+    "raw": "RT, dry, closed",
+    "temperature": "RT",
+    "conditions": [
+     "dry"
+    ],
+    "container": "closed"
+   }
+  },
+  {
+   "raw": "RT, dark, dry",
+   "records": 3,
+   "structured": {
+    "raw": "RT, dark, dry",
+    "temperature": "RT",
+    "conditions": [
+     "dark",
+     "dry"
+    ]
+   }
+  },
+  {
+   "raw": "2–8 °C, dark",
+   "records": 3,
+   "structured": {
+    "raw": "2–8 °C, dark",
+    "temperature": "2–8 °C",
+    "conditions": [
+     "dark"
+    ]
+   }
+  },
+  {
+   "raw": "Flammables cabinet, ventilated",
+   "records": 3,
+   "structured": {
+    "raw": "Flammables cabinet, ventilated",
+    "location": [
+     "Flammables cabinet"
+    ],
+    "conditions": [
+     "ventilated"
+    ]
+   }
+  },
+  {
+   "raw": "RT, closed",
+   "records": 3,
+   "structured": {
+    "raw": "RT, closed",
+    "temperature": "RT",
+    "container": "closed"
+   }
+  },
+  {
+   "raw": "Flammables cabinet",
+   "records": 3,
+   "structured": {
+    "raw": "Flammables cabinet",
+    "location": [
+     "Flammables cabinet"
+    ]
+   }
+  },
+  {
+   "raw": "RT, airtight (very hygroscopic)",
+   "records": 2,
+   "structured": {
+    "raw": "RT, airtight (very hygroscopic)",
+    "temperature": "RT",
+    "container": "airtight",
+    "notes": [
+     "very hygroscopic"
+    ]
+   }
+  },
+  {
+   "raw": "2–8 °C",
+   "records": 2,
+   "structured": {
+    "raw": "2–8 °C",
+    "temperature": "2–8 °C"
+   }
+  },
+  {
+   "raw": "RT, dark, closed",
+   "records": 2,
+   "structured": {
+    "raw": "RT, dark, closed",
+    "temperature": "RT",
+    "conditions": [
+     "dark"
+    ],
+    "container": "closed"
+   }
+  },
+  {
+   "raw": "RT, airtight",
+   "records": 2,
+   "structured": {
+    "raw": "RT, airtight",
+    "temperature": "RT",
+    "container": "airtight"
+   }
+  },
+  {
+   "raw": "RT, sealed",
+   "records": 2,
+   "structured": {
+    "raw": "RT, sealed",
+    "temperature": "RT",
+    "container": "sealed"
+   }
+  },
+  {
+   "raw": "RT, away from organics",
+   "records": 2,
+   "structured": {
+    "raw": "RT, away from organics",
+    "temperature": "RT",
+    "notes": [
+     "away from organics"
+    ]
+   }
+  },
+  {
+   "raw": "RT, dark, tightly closed",
+   "records": 1,
+   "structured": {
+    "raw": "RT, dark, tightly closed",
+    "temperature": "RT",
+    "conditions": [
+     "dark"
+    ],
+    "container": "tightly closed"
+   }
+  },
+  {
+   "raw": "RT, away from combustibles & acids",
+   "records": 1,
+   "structured": {
+    "raw": "RT, away from combustibles & acids",
+    "temperature": "RT",
+    "notes": [
+     "away from combustibles & acids"
+    ]
+   }
+  },
+  {
+   "raw": "RT — check label",
+   "records": 1,
+   "structured": {
+    "raw": "RT — check label",
+    "temperature": "RT",
+    "notes": [
+     "check label"
+    ]
+   }
+  },
+  {
+   "raw": "RT, airtight (hygroscopic)",
+   "records": 1,
+   "structured": {
+    "raw": "RT, airtight (hygroscopic)",
+    "temperature": "RT",
+    "container": "airtight",
+    "notes": [
+     "hygroscopic"
+    ]
+   }
+  },
+  {
+   "raw": "RT, closed, ventilated",
+   "records": 1,
+   "structured": {
+    "raw": "RT, closed, ventilated",
+    "temperature": "RT",
+    "container": "closed",
+    "conditions": [
+     "ventilated"
+    ]
+   }
+  },
+  {
+   "raw": "RT (stock NOT in refrigerator — see fridge notice)",
+   "records": 1,
+   "structured": {
+    "raw": "RT (stock NOT in refrigerator — see fridge notice)",
+    "temperature": "RT",
+    "notes": [
+     "stock NOT in refrigerator — see fridge notice"
+    ]
+   }
+  },
+  {
+   "raw": "RT, dry (cool)",
+   "records": 1,
+   "structured": {
+    "raw": "RT, dry (cool)",
+    "temperature": "RT",
+    "conditions": [
+     "dry"
+    ],
+    "notes": [
+     "cool"
+    ]
+   }
+  },
+  {
+   "raw": "RT, dark, dedicated gel area only",
+   "records": 1,
+   "structured": {
+    "raw": "RT, dark, dedicated gel area only",
+    "temperature": "RT",
+    "conditions": [
+     "dark"
+    ],
+    "location": [
+     "dedicated gel area only"
+    ]
+   }
+  },
+  {
+   "raw": "Cold, dark",
+   "records": 1,
+   "structured": {
+    "raw": "Cold, dark",
+    "temperature": "Cold",
+    "conditions": [
+     "dark"
+    ]
+   }
+  },
+  {
+   "raw": "Corrosives cabinet, closed",
+   "records": 1,
+   "structured": {
+    "raw": "Corrosives cabinet, closed",
+    "location": [
+     "Corrosives cabinet"
+    ],
+    "container": "closed"
+   }
+  },
+  {
+   "raw": "RT, cool & dark",
+   "records": 1,
+   "structured": {
+    "raw": "RT, cool & dark",
+    "temperature": "RT",
+    "conditions": [
+     "cool",
+     "dark"
+    ]
+   }
+  },
+  {
+   "raw": "Keep WET, cool, away from metals",
+   "records": 1,
+   "structured": {
+    "raw": "Keep WET, cool, away from metals",
+    "conditions": [
+     "cool"
+    ],
+    "notes": [
+     "Keep WET",
+     "away from metals"
+    ]
+   }
+  },
+  {
+   "raw": "RT, dry, sealed",
+   "records": 1,
+   "structured": {
+    "raw": "RT, dry, sealed",
+    "temperature": "RT",
+    "conditions": [
+     "dry"
+    ],
+    "container": "sealed"
+   }
+  },
+  {
+   "raw": "RT flammables area; chill in deep freezer before DNA work (see fridge notice)",
+   "records": 1,
+   "structured": {
+    "raw": "RT flammables area; chill in deep freezer before DNA work (see fridge notice)",
+    "temperature": "RT",
+    "location": [
+     "flammables area"
+    ],
+    "notes": [
+     "chill in deep freezer before DNA work",
+     "see fridge notice"
+    ]
+   }
+  },
+  {
+   "raw": "RT, sealed, clearly labelled",
+   "records": 1,
+   "structured": {
+    "raw": "RT, sealed, clearly labelled",
+    "temperature": "RT",
+    "container": "sealed",
+    "notes": [
+     "clearly labelled"
+    ]
+   }
+  },
+  {
+   "raw": "RT, away from combustibles",
+   "records": 1,
+   "structured": {
+    "raw": "RT, away from combustibles",
+    "temperature": "RT",
+    "notes": [
+     "away from combustibles"
+    ]
+   }
+  },
+  {
+   "raw": "RT, flammables area, tightly sealed",
+   "records": 1,
+   "structured": {
+    "raw": "RT, flammables area, tightly sealed",
+    "temperature": "RT",
+    "location": [
+     "flammables area"
+    ],
+    "container": "tightly sealed"
+   }
+  },
+  {
+   "raw": "2–8 °C, sealed",
+   "records": 1,
+   "structured": {
+    "raw": "2–8 °C, sealed",
+    "temperature": "2–8 °C",
+    "container": "sealed"
+   }
+  },
+  {
+   "raw": "Corrosives cabinet",
+   "records": 1,
+   "structured": {
+    "raw": "Corrosives cabinet",
+    "location": [
+     "Corrosives cabinet"
+    ]
+   }
+  }
+ ],
+ "audit": "Every word of every raw value appears in the structured form (checked at generation).",
+ "owner_review": [
+  {
+   "raw": "Cold, dark",
+   "issue": "\"Cold\" is not stated as 2–8 °C, so this record does not appear under the \"Cold storage (2–8 °C)\" filter (unchanged behaviour). Owner to confirm the intended temperature."
+  },
+  {
+   "raw": "RT (stock NOT in refrigerator — see fridge notice)",
+   "issue": "Refers to a fridge notice that is not part of the dataset."
+  },
+  {
+   "raw": "RT flammables area; chill in deep freezer before DNA work (see fridge notice)",
+   "issue": "Shown under the cold-storage filter because it mentions the deep freezer (unchanged behaviour), although storage temperature is RT."
+  }
+ ]
+}

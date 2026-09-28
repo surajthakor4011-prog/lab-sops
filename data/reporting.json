@@ -1,0 +1,8 @@
+{"version":1,"dataset":"reporting","enabled":true,
+"form_url":null,
+"form_url_note":"No online form endpoint has been supplied for this site. While this is null the reporting page states that online submission is not configured and offers the email draft and copy fallbacks instead.",
+"fallback_email":"surajthakor171119999@gmail.com",
+"fallback_email_source":"The address already published in the credit block of index.html as the maintainer's contact; it was not invented for this module.",
+"subject_prefix":"Lab OS correction",
+"modules":["SOPs","Chemicals","Formulations","Protocols","Calculators","Safety","Troubleshooting","Question bank","Reference","Culture collection","Site navigation or layout","Not sure"],
+"issue_types":["Scientific or content correction","Typographical error","Broken link","Incorrect procedure","Chemical or safety information issue","Question-bank issue","Reference issue","Interface or functionality problem","Other"]}

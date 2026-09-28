@@ -1,0 +1,7115 @@
+{
+ "generated": "Phase 05",
+ "method": "Same matcher as the browser (assets/sciname.js), run over every string outside existing <i>/<em> spans and outside HTML tags. Chemical names and SOP instrument-model lines are excluded, as in the browser.",
+ "per_dataset": {
+  "sops": {
+   "binomial": 0,
+   "genus": 0,
+   "abbreviated": 0,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 0
+  },
+  "chemicals": {
+   "binomial": 0,
+   "genus": 2,
+   "abbreviated": 0,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 2
+  },
+  "formulations": {
+   "binomial": 0,
+   "genus": 2,
+   "abbreviated": 0,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 2
+  },
+  "protocols": {
+   "binomial": 5,
+   "genus": 47,
+   "abbreviated": 5,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 32
+  },
+  "safety": {
+   "binomial": 0,
+   "genus": 2,
+   "abbreviated": 0,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 1
+  },
+  "troubleshooting": {
+   "binomial": 0,
+   "genus": 12,
+   "abbreviated": 0,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 6
+  },
+  "quiz-nematology": {
+   "binomial": 57,
+   "genus": 38,
+   "abbreviated": 10,
+   "infraspecific": 0,
+   "existing_italics": 0,
+   "strings_touched": 87
+  },
+  "questions": {
+   "binomial": 3947,
+   "genus": 2184,
+   "abbreviated": 137,
+   "infraspecific": 299,
+   "existing_italics": 7105,
+   "strings_touched": 6038
+  },
+  "references": {
+   "binomial": 84,
+   "genus": 170,
+   "abbreviated": 102,
+   "infraspecific": 10,
+   "existing_italics": 2155,
+   "strings_touched": 24
+  }
+ },
+ "names": {
+  "Fusarium": {
+   "count": 136,
+   "datasets": {
+    "chemicals": 1,
+    "formulations": 1,
+    "protocols": 5,
+    "troubleshooting": 3,
+    "quiz-nematology": 1,
+    "questions": 117,
+    "references": 8
+   }
+  },
+  "Fusarium oxysporum": {
+   "count": 131,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 130
+   }
+  },
+  "Ralstonia solanacearum": {
+   "count": 94,
+   "datasets": {
+    "protocols": 1,
+    "questions": 93
+   }
+  },
+  "Xanthomonas campestris": {
+   "count": 89,
+   "datasets": {
+    "questions": 88,
+    "references": 1
+   }
+  },
+  "Alternaria": {
+   "count": 86,
+   "datasets": {
+    "troubleshooting": 1,
+    "questions": 77,
+    "references": 8
+   }
+  },
+  "Xanthomonas": {
+   "count": 85,
+   "datasets": {
+    "protocols": 3,
+    "questions": 75,
+    "references": 7
+   }
+  },
+  "Rhizoctonia solani": {
+   "count": 84,
+   "datasets": {
+    "protocols": 1,
+    "questions": 82,
+    "references": 1
+   }
+  },
+  "Pythium": {
+   "count": 76,
+   "datasets": {
+    "protocols": 5,
+    "questions": 69,
+    "references": 2
+   }
+  },
+  "Phytophthora": {
+   "count": 71,
+   "datasets": {
+    "chemicals": 1,
+    "protocols": 3,
+    "questions": 62,
+    "references": 5
+   }
+  },
+  "Pseudomonas": {
+   "count": 70,
+   "datasets": {
+    "protocols": 4,
+    "questions": 63,
+    "references": 3
+   }
+  },
+  "Orobanche": {
+   "count": 63,
+   "datasets": {
+    "questions": 48,
+    "references": 15
+   }
+  },
+  "Puccinia graminis": {
+   "count": 56,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 53,
+    "references": 2
+   }
+  },
+  "Erwinia": {
+   "count": 53,
+   "datasets": {
+    "questions": 50,
+    "references": 3
+   }
+  },
+  "Cuscuta": {
+   "count": 52,
+   "datasets": {
+    "questions": 52
+   }
+  },
+  "Alternaria solani": {
+   "count": 51,
+   "datasets": {
+    "questions": 50,
+    "references": 1
+   }
+  },
+  "Pseudomonas syringae": {
+   "count": 51,
+   "datasets": {
+    "questions": 51
+   }
+  },
+  "Potyvirus": {
+   "count": 45,
+   "datasets": {
+    "questions": 43,
+    "references": 2
+   }
+  },
+  "Phytophthora infestans": {
+   "count": 43,
+   "datasets": {
+    "questions": 42,
+    "references": 1
+   }
+  },
+  "Erwinia amylovora": {
+   "count": 43,
+   "datasets": {
+    "questions": 40,
+    "references": 3
+   }
+  },
+  "Alternaria alternata": {
+   "count": 42,
+   "datasets": {
+    "questions": 40,
+    "references": 2
+   }
+  },
+  "Bacillus": {
+   "count": 39,
+   "datasets": {
+    "protocols": 1,
+    "questions": 38
+   }
+  },
+  "Clavibacter michiganensis": {
+   "count": 38,
+   "datasets": {
+    "questions": 38
+   }
+  },
+  "Agrobacterium": {
+   "count": 38,
+   "datasets": {
+    "questions": 35,
+    "references": 3
+   }
+  },
+  "Anguina tritici": {
+   "count": 37,
+   "datasets": {
+    "quiz-nematology": 4,
+    "questions": 33
+   }
+  },
+  "Striga": {
+   "count": 37,
+   "datasets": {
+    "questions": 37
+   }
+  },
+  "Macrophomina phaseolina": {
+   "count": 36,
+   "datasets": {
+    "questions": 36
+   }
+  },
+  "Agrobacterium tumefaciens": {
+   "count": 35,
+   "datasets": {
+    "questions": 35
+   }
+  },
+  "Puccinia": {
+   "count": 35,
+   "datasets": {
+    "questions": 34,
+    "references": 1
+   }
+  },
+  "Aspergillus": {
+   "count": 34,
+   "datasets": {
+    "protocols": 1,
+    "safety": 1,
+    "troubleshooting": 1,
+    "questions": 30,
+    "references": 1
+   }
+  },
+  "Penicillium": {
+   "count": 34,
+   "datasets": {
+    "protocols": 1,
+    "safety": 1,
+    "troubleshooting": 2,
+    "questions": 29,
+    "references": 1
+   }
+  },
+  "Sclerotium rolfsii": {
+   "count": 34,
+   "datasets": {
+    "questions": 34
+   }
+  },
+  "Cercospora": {
+   "count": 34,
+   "datasets": {
+    "questions": 30,
+    "references": 4
+   }
+  },
+  "Ustilago tritici": {
+   "count": 34,
+   "datasets": {
+    "questions": 33,
+    "references": 1
+   }
+  },
+  "Streptomyces scabies": {
+   "count": 32,
+   "datasets": {
+    "questions": 31,
+    "references": 1
+   }
+  },
+  "Aspergillus flavus": {
+   "count": 32,
+   "datasets": {
+    "questions": 30,
+    "references": 2
+   }
+  },
+  "Colletotrichum falcatum": {
+   "count": 32,
+   "datasets": {
+    "questions": 31,
+    "references": 1
+   }
+  },
+  "Rhizopus": {
+   "count": 31,
+   "datasets": {
+    "troubleshooting": 2,
+    "questions": 28,
+    "references": 1
+   }
+  },
+  "Claviceps purpurea": {
+   "count": 31,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 28,
+    "references": 2
+   }
+  },
+  "Aspergillus niger": {
+   "count": 31,
+   "datasets": {
+    "questions": 31
+   }
+  },
+  "Xanthomonas oryzae": {
+   "count": 31,
+   "datasets": {
+    "questions": 31
+   }
+  },
+  "Colletotrichum": {
+   "count": 30,
+   "datasets": {
+    "formulations": 1,
+    "troubleshooting": 2,
+    "questions": 25,
+    "references": 2
+   }
+  },
+  "Rhizoctonia": {
+   "count": 29,
+   "datasets": {
+    "protocols": 2,
+    "questions": 25,
+    "references": 2
+   }
+  },
+  "Meloidogyne": {
+   "count": 29,
+   "datasets": {
+    "quiz-nematology": 9,
+    "questions": 18,
+    "references": 2
+   }
+  },
+  "Xanthomonas citri": {
+   "count": 29,
+   "datasets": {
+    "questions": 29
+   }
+  },
+  "Bemisia tabaci": {
+   "count": 29,
+   "datasets": {
+    "questions": 26,
+    "references": 3
+   }
+  },
+  "Colletotrichum capsici": {
+   "count": 28,
+   "datasets": {
+    "questions": 28
+   }
+  },
+  "Colletotrichum gloeosporioides": {
+   "count": 27,
+   "datasets": {
+    "questions": 27
+   }
+  },
+  "Plasmopara viticola": {
+   "count": 27,
+   "datasets": {
+    "questions": 27
+   }
+  },
+  "Sclerospora graminicola": {
+   "count": 27,
+   "datasets": {
+    "questions": 26,
+    "references": 1
+   }
+  },
+  "Claviceps": {
+   "count": 27,
+   "datasets": {
+    "questions": 23,
+    "references": 4
+   }
+  },
+  "Rhizobium": {
+   "count": 27,
+   "datasets": {
+    "questions": 27
+   }
+  },
+  "Claviceps fusiformis": {
+   "count": 26,
+   "datasets": {
+    "questions": 26
+   }
+  },
+  "Erysiphe": {
+   "count": 26,
+   "datasets": {
+    "questions": 25,
+    "references": 1
+   }
+  },
+  "campestris": {
+   "count": 26,
+   "datasets": {
+    "questions": 25,
+    "references": 1
+   }
+  },
+  "Fusarium moniliforme": {
+   "count": 26,
+   "datasets": {
+    "questions": 26
+   }
+  },
+  "Clavibacter": {
+   "count": 25,
+   "datasets": {
+    "protocols": 2,
+    "questions": 22,
+    "references": 1
+   }
+  },
+  "Sclerotium": {
+   "count": 25,
+   "datasets": {
+    "protocols": 2,
+    "questions": 20,
+    "references": 3
+   }
+  },
+  "Sclerotinia": {
+   "count": 24,
+   "datasets": {
+    "protocols": 2,
+    "questions": 18,
+    "references": 4
+   }
+  },
+  "Albugo candida": {
+   "count": 24,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 23
+   }
+  },
+  "Begomovirus": {
+   "count": 24,
+   "datasets": {
+    "questions": 23,
+    "references": 1
+   }
+  },
+  "Loranthus": {
+   "count": 24,
+   "datasets": {
+    "questions": 24
+   }
+  },
+  "malvacearum": {
+   "count": 23,
+   "datasets": {
+    "questions": 21,
+    "references": 2
+   }
+  },
+  "Ustilaginoidea virens": {
+   "count": 23,
+   "datasets": {
+    "questions": 23
+   }
+  },
+  "Xanthomonas campestri": {
+   "count": 23,
+   "datasets": {
+    "questions": 23
+   }
+  },
+  "Rhizoctonia bataticola": {
+   "count": 22,
+   "datasets": {
+    "questions": 21,
+    "references": 1
+   }
+  },
+  "Sclerotinia sclerotiorum": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Botrytis cinerea": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Ustilago maydis": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Pythium aphanidermatum": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Pseudomonas fluorescens": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Venturia inaequalis": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Tospovirus": {
+   "count": 22,
+   "datasets": {
+    "questions": 21,
+    "references": 1
+   }
+  },
+  "Xanthomonas axonopodis": {
+   "count": 22,
+   "datasets": {
+    "questions": 22
+   }
+  },
+  "Streptomyces": {
+   "count": 21,
+   "datasets": {
+    "protocols": 2,
+    "questions": 17,
+    "references": 2
+   }
+  },
+  "Heterodera avenae": {
+   "count": 21,
+   "datasets": {
+    "quiz-nematology": 3,
+    "questions": 18
+   }
+  },
+  "Xiphinema": {
+   "count": 21,
+   "datasets": {
+    "quiz-nematology": 5,
+    "questions": 15,
+    "references": 1
+   }
+  },
+  "Tilletia indica": {
+   "count": 21,
+   "datasets": {
+    "questions": 20,
+    "references": 1
+   }
+  },
+  "Magnaporthe oryzae": {
+   "count": 21,
+   "datasets": {
+    "questions": 20,
+    "references": 1
+   }
+  },
+  "Peronospora": {
+   "count": 21,
+   "datasets": {
+    "questions": 19,
+    "references": 2
+   }
+  },
+  "Pyricularia oryzae": {
+   "count": 21,
+   "datasets": {
+    "questions": 20,
+    "references": 1
+   }
+  },
+  "Alternaria brassicae": {
+   "count": 21,
+   "datasets": {
+    "questions": 21
+   }
+  },
+  "Albugo": {
+   "count": 21,
+   "datasets": {
+    "questions": 20,
+    "references": 1
+   }
+  },
+  "Plasmodiophora brassicae": {
+   "count": 21,
+   "datasets": {
+    "questions": 18,
+    "references": 3
+   }
+  },
+  "Synchytrium endobioticum": {
+   "count": 20,
+   "datasets": {
+    "questions": 19,
+    "references": 1
+   }
+  },
+  "Tobamovirus": {
+   "count": 20,
+   "datasets": {
+    "questions": 20
+   }
+  },
+  "Fusarium udum": {
+   "count": 20,
+   "datasets": {
+    "questions": 19,
+    "references": 1
+   }
+  },
+  "Fusarium graminearum": {
+   "count": 20,
+   "datasets": {
+    "questions": 19,
+    "references": 1
+   }
+  },
+  "Erysiphe cichoracearum": {
+   "count": 20,
+   "datasets": {
+    "questions": 20
+   }
+  },
+  "Phytophthora palmivora": {
+   "count": 20,
+   "datasets": {
+    "questions": 20
+   }
+  },
+  "Ustilago nuda": {
+   "count": 19,
+   "datasets": {
+    "questions": 19
+   }
+  },
+  "oryzae": {
+   "count": 19,
+   "datasets": {
+    "questions": 19
+   }
+  },
+  "Colletotrichum lindemuthianum": {
+   "count": 19,
+   "datasets": {
+    "questions": 19
+   }
+  },
+  "Oidium mangiferae": {
+   "count": 19,
+   "datasets": {
+    "questions": 19
+   }
+  },
+  "Ustilago hordei": {
+   "count": 18,
+   "datasets": {
+    "questions": 18
+   }
+  },
+  "Uromyces": {
+   "count": 18,
+   "datasets": {
+    "questions": 18
+   }
+  },
+  "Myzus persicae": {
+   "count": 18,
+   "datasets": {
+    "questions": 18
+   }
+  },
+  "Aphelenchoides besseyi": {
+   "count": 17,
+   "datasets": {
+    "quiz-nematology": 3,
+    "questions": 13,
+    "references": 1
+   }
+  },
+  "Erwinia carotovora": {
+   "count": 17,
+   "datasets": {
+    "questions": 17
+   }
+  },
+  "Peronosclerospora sorghi": {
+   "count": 17,
+   "datasets": {
+    "questions": 17
+   }
+  },
+  "tritici": {
+   "count": 17,
+   "datasets": {
+    "questions": 17
+   }
+  },
+  "Hemileia vastatrix": {
+   "count": 17,
+   "datasets": {
+    "questions": 16,
+    "references": 1
+   }
+  },
+  "Pseudomonas solanacearum": {
+   "count": 17,
+   "datasets": {
+    "questions": 17
+   }
+  },
+  "Trichoderma": {
+   "count": 16,
+   "datasets": {
+    "protocols": 1,
+    "questions": 15
+   }
+  },
+  "Verticillium": {
+   "count": 16,
+   "datasets": {
+    "protocols": 1,
+    "questions": 15
+   }
+  },
+  "Meloidogyne incognita": {
+   "count": 16,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 15
+   }
+  },
+  "Fusarium solani": {
+   "count": 16,
+   "datasets": {
+    "questions": 16
+   }
+  },
+  "Pectobacterium carotovorum": {
+   "count": 16,
+   "datasets": {
+    "questions": 16
+   }
+  },
+  "Closterovirus": {
+   "count": 16,
+   "datasets": {
+    "questions": 14,
+    "references": 2
+   }
+  },
+  "citri": {
+   "count": 16,
+   "datasets": {
+    "questions": 16
+   }
+  },
+  "Ascochyta rabiei": {
+   "count": 16,
+   "datasets": {
+    "questions": 16
+   }
+  },
+  "Leveillula taurica": {
+   "count": 16,
+   "datasets": {
+    "questions": 16
+   }
+  },
+  "Mucor": {
+   "count": 16,
+   "datasets": {
+    "questions": 15,
+    "references": 1
+   }
+  },
+  "Azotobacter": {
+   "count": 16,
+   "datasets": {
+    "questions": 16
+   }
+  },
+  "Macrophomina": {
+   "count": 15,
+   "datasets": {
+    "protocols": 5,
+    "questions": 9,
+    "references": 1
+   }
+  },
+  "Ralstonia": {
+   "count": 15,
+   "datasets": {
+    "protocols": 1,
+    "questions": 10,
+    "references": 4
+   }
+  },
+  "Radopholus similis": {
+   "count": 15,
+   "datasets": {
+    "quiz-nematology": 4,
+    "questions": 11
+   }
+  },
+  "Spongospora subterranea": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "Uncinula necator": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "Magnaporthe grisea": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "Xylella fastidiosa": {
+   "count": 15,
+   "datasets": {
+    "questions": 14,
+    "references": 1
+   }
+  },
+  "Taphrina maculans": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "Alternaria porri": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "Exobasidium vexans": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "Botrytis": {
+   "count": 15,
+   "datasets": {
+    "questions": 13,
+    "references": 2
+   }
+  },
+  "Erysiphe polygoni": {
+   "count": 15,
+   "datasets": {
+    "questions": 15
+   }
+  },
+  "P. syringae": {
+   "count": 14,
+   "datasets": {
+    "protocols": 1,
+    "questions": 10,
+    "references": 3
+   }
+  },
+  "Ditylenchus angustus": {
+   "count": 14,
+   "datasets": {
+    "quiz-nematology": 4,
+    "questions": 9,
+    "references": 1
+   }
+  },
+  "cubense": {
+   "count": 14,
+   "datasets": {
+    "questions": 13,
+    "references": 1
+   }
+  },
+  "Bipolaris oryzae": {
+   "count": 14,
+   "datasets": {
+    "questions": 13,
+    "references": 1
+   }
+  },
+  "Pseudomonas savastanoi": {
+   "count": 14,
+   "datasets": {
+    "questions": 14
+   }
+  },
+  "Ustilago": {
+   "count": 14,
+   "datasets": {
+    "questions": 13,
+    "references": 1
+   }
+  },
+  "Thanatephorus cucumeris": {
+   "count": 14,
+   "datasets": {
+    "questions": 14
+   }
+  },
+  "Spiroplasma citri": {
+   "count": 14,
+   "datasets": {
+    "questions": 14
+   }
+  },
+  "E. coli": {
+   "count": 14,
+   "datasets": {
+    "questions": 9,
+    "references": 5
+   }
+  },
+  "Dickeya": {
+   "count": 13,
+   "datasets": {
+    "protocols": 1,
+    "questions": 9,
+    "references": 3
+   }
+  },
+  "Sarocladium oryzae": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "michiganensis": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Acidovorax avenae": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Cucumovirus": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Neurospora": {
+   "count": 13,
+   "datasets": {
+    "questions": 11,
+    "references": 2
+   }
+  },
+  "Glomerella tucumanensis": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Tilletia caries": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Podosphaera leucotricha": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Mycosphaerella": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "lycopersici": {
+   "count": 13,
+   "datasets": {
+    "questions": 10,
+    "references": 3
+   }
+  },
+  "Glomerella cingulata": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Phakopsora pachyrhizi": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Xylella": {
+   "count": 13,
+   "datasets": {
+    "questions": 12,
+    "references": 1
+   }
+  },
+  "Thrips tabaci": {
+   "count": 13,
+   "datasets": {
+    "questions": 11,
+    "references": 2
+   }
+  },
+  "Olpidium brassicae": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Spongospora": {
+   "count": 13,
+   "datasets": {
+    "questions": 10,
+    "references": 3
+   }
+  },
+  "Spiroplasma": {
+   "count": 13,
+   "datasets": {
+    "questions": 11,
+    "references": 2
+   }
+  },
+  "Bacillus subtilis": {
+   "count": 13,
+   "datasets": {
+    "questions": 13
+   }
+  },
+  "Pectobacterium": {
+   "count": 12,
+   "datasets": {
+    "protocols": 3,
+    "questions": 6,
+    "references": 3
+   }
+  },
+  "Puccinia striiformis": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "tabaci": {
+   "count": 12,
+   "datasets": {
+    "questions": 11,
+    "references": 1
+   }
+  },
+  "Cochliobolus carbonum": {
+   "count": 12,
+   "datasets": {
+    "questions": 11,
+    "references": 1
+   }
+  },
+  "Potexvirus": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "Plasmopara halstedii": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "Phytophthora nicotianae": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "Rhizopus stolonifer": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "Tilletia": {
+   "count": 12,
+   "datasets": {
+    "questions": 11,
+    "references": 1
+   }
+  },
+  "Helminthosporium oryzae": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "Puccinia recondita": {
+   "count": 12,
+   "datasets": {
+    "questions": 12
+   }
+  },
+  "Heterodera": {
+   "count": 11,
+   "datasets": {
+    "quiz-nematology": 3,
+    "questions": 7,
+    "references": 1
+   }
+  },
+  "Longidorus": {
+   "count": 11,
+   "datasets": {
+    "quiz-nematology": 3,
+    "questions": 8
+   }
+  },
+  "Plasmopara": {
+   "count": 11,
+   "datasets": {
+    "questions": 9,
+    "references": 2
+   }
+  },
+  "Leifsonia xyli": {
+   "count": 11,
+   "datasets": {
+    "questions": 10,
+    "references": 1
+   }
+  },
+  "Bipolaris maydis": {
+   "count": 11,
+   "datasets": {
+    "questions": 8,
+    "references": 3
+   }
+  },
+  "Puccinia arachidis": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Ceratocystis paradoxa": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Pentalonia nigronervosa": {
+   "count": 11,
+   "datasets": {
+    "questions": 10,
+    "references": 1
+   }
+  },
+  "Ascochyta": {
+   "count": 11,
+   "datasets": {
+    "questions": 9,
+    "references": 2
+   }
+  },
+  "Sporisorium scitamineum": {
+   "count": 11,
+   "datasets": {
+    "questions": 10,
+    "references": 1
+   }
+  },
+  "ricini": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Sporisorium reilianum": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Claviceps sorghi": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Phytophthora drechsleri": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "cajani": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Uncinula": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Phyllactinia": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Trichoderma harzianum": {
+   "count": 11,
+   "datasets": {
+    "questions": 11
+   }
+  },
+  "Trichodorus": {
+   "count": 10,
+   "datasets": {
+    "quiz-nematology": 3,
+    "questions": 6,
+    "references": 1
+   }
+  },
+  "Puccinia triticina": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Septoria": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Blumeria graminis": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "phaseolicola": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Xanthomonas albilineans": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Caulimovirus": {
+   "count": 10,
+   "datasets": {
+    "questions": 8,
+    "references": 2
+   }
+  },
+  "Luteovirus": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Ustilago scitaminea": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Nephotettix virescens": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Babuvirus": {
+   "count": 10,
+   "datasets": {
+    "questions": 9,
+    "references": 1
+   }
+  },
+  "Athelia rolfsii": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Mycosphaerella musicola": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Puccinia purpurea": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Puccinia helianthi": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Alternaria sesami": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "punicae": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Melampsora lini": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Oidium lini": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Pseudoperonospora cubensis": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Phomopsis vexans": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Phomopsis": {
+   "count": 10,
+   "datasets": {
+    "questions": 9,
+    "references": 1
+   }
+  },
+  "Podosphaera": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Comovirus": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Amanita phalloides": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Pilobolus": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Clostridium": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Psilocybe": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Plasmodiophora": {
+   "count": 10,
+   "datasets": {
+    "questions": 9,
+    "references": 1
+   }
+  },
+  "Penicillium digitatum": {
+   "count": 10,
+   "datasets": {
+    "questions": 10
+   }
+  },
+  "Ditylenchus dipsaci": {
+   "count": 9,
+   "datasets": {
+    "quiz-nematology": 2,
+    "questions": 7
+   }
+  },
+  "Meloidogyne graminicola": {
+   "count": 9,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 8
+   }
+  },
+  "Paecilomyces lilacinus": {
+   "count": 9,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 7,
+    "references": 1
+   }
+  },
+  "Puccinia sorghi": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "xyli": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Fusarium sacchari": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Colletotrichum musae": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Gibberella fujikuroi": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Gibberella zeae": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Helminthosporium": {
+   "count": 9,
+   "datasets": {
+    "questions": 8,
+    "references": 1
+   }
+  },
+  "Thalictrum": {
+   "count": 9,
+   "datasets": {
+    "questions": 8,
+    "references": 1
+   }
+  },
+  "Berberis": {
+   "count": 9,
+   "datasets": {
+    "questions": 8,
+    "references": 1
+   }
+  },
+  "T. laevis": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "vasinfectum": {
+   "count": 9,
+   "datasets": {
+    "questions": 8,
+    "references": 1
+   }
+  },
+  "oryzicola": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Colletotrichum gossypii": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Phytophthora arecae": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "P. meadii": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Cercosporidium personatum": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Alternaria helianthi": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Neurospora crassa": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Corynebacterium": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Clavibacter tritici": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Ampelomyces quisqualis": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Amanita": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Agaricus": {
+   "count": 9,
+   "datasets": {
+    "questions": 9
+   }
+  },
+  "Pratylenchus": {
+   "count": 8,
+   "datasets": {
+    "quiz-nematology": 5,
+    "questions": 3
+   }
+  },
+  "Tylenchulus semipenetrans": {
+   "count": 8,
+   "datasets": {
+    "quiz-nematology": 4,
+    "questions": 4
+   }
+  },
+  "Rathayibacter tritici": {
+   "count": 8,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 7
+   }
+  },
+  "Verticillium dahliae": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Blumeria": {
+   "count": 8,
+   "datasets": {
+    "questions": 7,
+    "references": 1
+   }
+  },
+  "Armillaria mellea": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Erwinia tracheiphila": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Venturia": {
+   "count": 8,
+   "datasets": {
+    "questions": 7,
+    "references": 1
+   }
+  },
+  "Saprolegnia": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Bipolaris sorokiniana": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Colletotrichum graminicola": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "sepedonicus": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Amphobotrys ricini": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Capnodium mangiferae": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Urocystis cepulae": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Peronospora destructor": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Ganoderma lucidum": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Diaphorina citri": {
+   "count": 8,
+   "datasets": {
+    "questions": 7,
+    "references": 1
+   }
+  },
+  "Synchytrium": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Saccharomyces cerevisiae": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Leveillula": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Toxoptera citricidus": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Botryodiplodia theobromae": {
+   "count": 8,
+   "datasets": {
+    "questions": 8
+   }
+  },
+  "Chenopodium amaranticolor": {
+   "count": 7,
+   "datasets": {
+    "protocols": 2,
+    "questions": 5
+   }
+  },
+  "Globodera": {
+   "count": 7,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Paratrichodorus": {
+   "count": 7,
+   "datasets": {
+    "quiz-nematology": 2,
+    "questions": 5
+   }
+  },
+  "Sclerospora": {
+   "count": 7,
+   "datasets": {
+    "questions": 6,
+    "references": 1
+   }
+  },
+  "Penicillium expansum": {
+   "count": 7,
+   "datasets": {
+    "questions": 6,
+    "references": 1
+   }
+  },
+  "Urocystis agropyri": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Polymyxa": {
+   "count": 7,
+   "datasets": {
+    "questions": 4,
+    "references": 3
+   }
+  },
+  "Cochliobolus heterostrophus": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Glomerella": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Monilinia": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Arabidopsis": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Uromyces appendiculatus": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "cepae": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Elsinoe fawcettii": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Ceratocystis fimbriata": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Hyaloperonospora parasitica": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Sporisorium sorghi": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Sphacelotheca cruenta": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Stemphylium vesicarium": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Tolyposporium": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Puccinia substriata": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "indica": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Fusarium mangiferae": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Elsinoe ampelina": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Phytophthora capsici": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "P. citrophthora": {
+   "count": 7,
+   "datasets": {
+    "questions": 5,
+    "references": 2
+   }
+  },
+  "Ganoderma": {
+   "count": 7,
+   "datasets": {
+    "questions": 6,
+    "references": 1
+   }
+  },
+  "Sphaerotheca": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Agaricus bisporus": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "A. tumefaciens": {
+   "count": 7,
+   "datasets": {
+    "questions": 6,
+    "references": 1
+   }
+  },
+  "Curvularia": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Trichoderma viride": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Ravenelia": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Amanita muscaria": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Fusarium moniliformae": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Xanthomonas auxonopodis": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Colletotrichum circinans": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Spirillum": {
+   "count": 7,
+   "datasets": {
+    "questions": 7
+   }
+  },
+  "Globodera rostochiensis": {
+   "count": 6,
+   "datasets": {
+    "quiz-nematology": 2,
+    "questions": 4
+   }
+  },
+  "Hirschmanniella oryzae": {
+   "count": 6,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 5
+   }
+  },
+  "Rotylenchulus reniformis": {
+   "count": 6,
+   "datasets": {
+    "quiz-nematology": 2,
+    "questions": 4
+   }
+  },
+  "Mycosphaerella fijiensis": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Armillaria": {
+   "count": 6,
+   "datasets": {
+    "questions": 4,
+    "references": 2
+   }
+  },
+  "Erysiphe cruciferarum": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Nephotettix": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Meloidogyne javanica": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Cochliobolus miyabeanus": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Gibberella": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Bipolaris": {
+   "count": 6,
+   "datasets": {
+    "questions": 4,
+    "references": 2
+   }
+  },
+  "Cochliobolus": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Magnaporthe": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Gaeumannomyces graminis": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Cercospora canescens": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Cercospora coffeicola": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Sclerotium oryzae": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "avenae": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Podosphaera xanthii": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Tolyposporium ehrenbergii": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "ciceris": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Uromyces viciae-fabae": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Phaeoisariopsis griseola": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Cercospora capsici": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Passalora fulva": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Pyrenophora graminea": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "pisi": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Cercospora arachidicola": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "Ramularia areola": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Aphis gossypii": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Bdellovibrio": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Olpidium": {
+   "count": 6,
+   "datasets": {
+    "questions": 3,
+    "references": 3
+   }
+  },
+  "Bacillus thuringiensis": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Melampsora": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Taphrina deformans": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Erwinia caratovora": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Pleurotus": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Leersia hexandra": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Sphaerotheca pannosa": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "Hemileia": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "S. fradiae": {
+   "count": 6,
+   "datasets": {
+    "questions": 5,
+    "references": 1
+   }
+  },
+  "S. griseus": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "S. venezuelae": {
+   "count": 6,
+   "datasets": {
+    "questions": 6
+   }
+  },
+  "F. oxysporum": {
+   "count": 6,
+   "datasets": {
+    "references": 6
+   }
+  },
+  "Curtobacterium": {
+   "count": 5,
+   "datasets": {
+    "protocols": 1,
+    "questions": 2,
+    "references": 2
+   }
+  },
+  "Peronospora parasitica": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Rhodococcus fascians": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Datura stramonium": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Tolyposporium penicillariae": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Thrips palmi": {
+   "count": 5,
+   "datasets": {
+    "questions": 4,
+    "references": 1
+   }
+  },
+  "Tobravirus": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Pestalotia": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Neovossia horrida": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Exserohilum turcicum": {
+   "count": 5,
+   "datasets": {
+    "questions": 4,
+    "references": 1
+   }
+  },
+  "Thielaviopsis paradoxa": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "sasakii": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "lini": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Erysiphe pisi": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "glycines": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Phytophthora cactorum": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Stemphylium": {
+   "count": 5,
+   "datasets": {
+    "questions": 4,
+    "references": 1
+   }
+  },
+  "Ceratocystis": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Nanovirus": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Polymyxa betae": {
+   "count": 5,
+   "datasets": {
+    "questions": 4,
+    "references": 1
+   }
+  },
+  "Aspergillus nidulans": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Pyricularia": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Meloidogyne arenaria": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Polyporus": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Alternaria tenuis": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Saccharomyces": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Alternaria triticina": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Botrytis allii": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Streptomyces griseus": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Morchella": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "A. flavus": {
+   "count": 5,
+   "datasets": {
+    "questions": 4,
+    "references": 1
+   }
+  },
+  "Achlya": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Cyathus": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Clavaria": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Volvariella": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Botryodiplodia": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Rhopalosiphum padi": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "Ralstonia solanaceaum": {
+   "count": 5,
+   "datasets": {
+    "questions": 5
+   }
+  },
+  "P. fluorescens": {
+   "count": 4,
+   "datasets": {
+    "protocols": 1,
+    "references": 3
+   }
+  },
+  "Chenopodium": {
+   "count": 4,
+   "datasets": {
+    "troubleshooting": 1,
+    "questions": 3
+   }
+  },
+  "Rotylenchulus": {
+   "count": 4,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 3
+   }
+  },
+  "Xiphinema americanum": {
+   "count": 4,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 3
+   }
+  },
+  "Bremia": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Fusarium verticillioides": {
+   "count": 4,
+   "datasets": {
+    "questions": 3,
+    "references": 1
+   }
+  },
+  "Erysiphe graminis": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Neovossia indica": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Gymnosporangium juniperi": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Nectria": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Cladosporium fulvum": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Gymnosporangium": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Aceria cajani": {
+   "count": 4,
+   "datasets": {
+    "questions": 3,
+    "references": 1
+   }
+  },
+  "Peronospora viciae": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "phaseoli": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Pestalotiopsis theae": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Peronospora tabacina": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "C. purpurea": {
+   "count": 4,
+   "datasets": {
+    "questions": 1,
+    "references": 3
+   }
+  },
+  "Toxoptera citricida": {
+   "count": 4,
+   "datasets": {
+    "questions": 3,
+    "references": 1
+   }
+  },
+  "Carlavirus": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Escherichia coli": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Sphacelotheca sorghi": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Microsphaera": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Myzus preudosolani": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Bromovirus": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Thanatephorus cucmeris": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Pestalotiopsis": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Xylaria": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Phragmidium": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Oryza sativa": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Oxalis corniculata": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Fusarium oxysporium": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Pyricularia grisea": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Alternaria ricini": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Aphis craccivora": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Orosius albicinctus": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Oidium caricae": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Alternaria burnsii": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Diplodia rosarum": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Phytophthora parasitica": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Escherichia": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Pseudomonas aeruginosa": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Agrobacterium radiobacter": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Uromyces pisi": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Urocystis": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Penicillium chrysogenum": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Eurotium": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Cordyceps": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "A. muscaria": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "A. pantherina": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "A. citrina": {
+   "count": 4,
+   "datasets": {
+    "questions": 2,
+    "references": 2
+   }
+  },
+  "Cantharellus": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "A. parasiticus": {
+   "count": 4,
+   "datasets": {
+    "questions": 3,
+    "references": 1
+   }
+  },
+  "A. radiobacter": {
+   "count": 4,
+   "datasets": {
+    "questions": 2,
+    "references": 2
+   }
+  },
+  "Erwinia amylowora": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "maydis": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Anguina": {
+   "count": 4,
+   "datasets": {
+    "questions": 2,
+    "references": 2
+   }
+  },
+  "Beauveria bassiana": {
+   "count": 4,
+   "datasets": {
+    "questions": 4
+   }
+  },
+  "Heterodera cajani": {
+   "count": 3,
+   "datasets": {
+    "quiz-nematology": 3
+   }
+  },
+  "Tylenchorhynchus": {
+   "count": 3,
+   "datasets": {
+    "quiz-nematology": 3
+   }
+  },
+  "Meloidogyne hapla": {
+   "count": 3,
+   "datasets": {
+    "quiz-nematology": 2,
+    "questions": 1
+   }
+  },
+  "Heterodera schachtii": {
+   "count": 3,
+   "datasets": {
+    "quiz-nematology": 2,
+    "questions": 1
+   }
+  },
+  "Heterodera glycines": {
+   "count": 3,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 2
+   }
+  },
+  "Septoria lycopersici": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Xanthomonas arboricola": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Pseudomonas fuscovaginae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "X. oryzae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Helminthosporium victoriae": {
+   "count": 3,
+   "datasets": {
+    "questions": 1,
+    "references": 2
+   }
+  },
+  "Furovirus": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Monilinia fructigena": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Corticium": {
+   "count": 3,
+   "datasets": {
+    "questions": 2,
+    "references": 1
+   }
+  },
+  "Oxalis": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Tilletia laevis": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "T. caries": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "U. hordei": {
+   "count": 3,
+   "datasets": {
+    "questions": 2,
+    "references": 1
+   }
+  },
+  "Puccinia polysora": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "C. africana": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Moesziomyces penicillariae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Colletotrichum corchori": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Colletotrichum kahawae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Claviceps paspali": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Tilletia barclayana": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Pentalonia": {
+   "count": 3,
+   "datasets": {
+    "questions": 2,
+    "references": 1
+   }
+  },
+  "U. nuda": {
+   "count": 3,
+   "datasets": {
+    "questions": 1,
+    "references": 2
+   }
+  },
+  "Sphacelia": {
+   "count": 3,
+   "datasets": {
+    "questions": 2,
+    "references": 1
+   }
+  },
+  "Thermus aquaticus": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Rotylenchus reniformis": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Polymyxa graminis": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Sclerotium rolfsi": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Pseudomonas tabaci": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Ralstonia solanacerum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Aphis gosypii": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Cochliobolus victoriae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Podospora anserina": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Cryphonectria parasitica": {
+   "count": 3,
+   "datasets": {
+    "questions": 2,
+    "references": 1
+   }
+  },
+  "Meliola": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Solanum tuberosum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Sphacelotheca": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Helminthosporium carbonum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Ustilago scitaminae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Alternaria burnsi": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Puccinia striformis": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Puccinia penniseti": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Frankliniella schultzei": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Alternaria macrospora": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Paecilomyces": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Xanthomonas compestris": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Citrus psylla": {
+   "count": 3,
+   "datasets": {
+    "questions": 2,
+    "references": 1
+   }
+  },
+  "Dendrophthoe falcata": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Oidium erysiphoides": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Fusarium oxisporum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Aphis gossypi": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Xanthomonas punicae": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Cephaleuros virescens": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Burkholderia solanacearum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Septoria crysenthemella": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Vibrio": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Colletotrichum truncatum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Verticillium albo-atrum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Helminthosporium sativum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Pentalonia nigranervosa": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Entomophthora": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Auricularia": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Tuber melanosporum": {
+   "count": 3,
+   "datasets": {
+    "questions": 1,
+    "references": 2
+   }
+  },
+  "Xylaria hypoxylon": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Xylaria polymorpha": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Geastrum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Aspergillus parasiticus": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Pythium debaryanum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "parasitica": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Colletotrichum gleosporides": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "penniseti": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "vasculorum": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Clavibacter xyli": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "Phytophthora palmiera": {
+   "count": 3,
+   "datasets": {
+    "questions": 3
+   }
+  },
+  "C. sorghi": {
+   "count": 3,
+   "datasets": {
+    "references": 3
+   }
+  },
+  "P. expansum": {
+   "count": 3,
+   "datasets": {
+    "references": 3
+   }
+  },
+  "Candida oleophila": {
+   "count": 3,
+   "datasets": {
+    "references": 3
+   }
+  },
+  "Coniothyrium minitans": {
+   "count": 3,
+   "datasets": {
+    "references": 3
+   }
+  },
+  "R. solani": {
+   "count": 3,
+   "datasets": {
+    "references": 3
+   }
+  },
+  "Pratylenchus coffeae": {
+   "count": 2,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 1
+   }
+  },
+  "Pratylenchus penetrans": {
+   "count": 2,
+   "datasets": {
+    "quiz-nematology": 1,
+    "questions": 1
+   }
+  },
+  "D. dipsaci": {
+   "count": 2,
+   "datasets": {
+    "quiz-nematology": 2
+   }
+  },
+  "Ditylenchus destructor": {
+   "count": 2,
+   "datasets": {
+    "quiz-nematology": 2
+   }
+  },
+  "G. pallida": {
+   "count": 2,
+   "datasets": {
+    "quiz-nematology": 1,
+    "references": 1
+   }
+  },
+  "Puccinia hordei": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Sphacelia sorghi": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Xanthomonas phaseoli": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Pantoea agglomerans": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "P. savastanoi": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Clavibacter sepedonicus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "X. campestris": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "savastanoi": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Chenopodium quinoa": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Tombusvirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "F. verticillioides": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Marasmius": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Burkholderia glumae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Penicillium citrinum": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Oryzavirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "H. victoriae": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Periconia circinata": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Nectria haematococca": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Corticium rolfsii": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Drechslera": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ophiobolus miyabeanus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Dickeya dianthicola": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "P. recondita": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Sphacelotheca reiliana": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Colletotrichum orbiculare": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Cephaleuros parasiticus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Bremia lactucae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Marasmius oreades": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Agrobacterium rhizogenes": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Leifsonia": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Mastrevirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Curtovirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Topocuvirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Polerovirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Nepovirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Thanatephorus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Fusicoccum amygdali": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Ditylenchus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Aphelenchoides": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Helminthosporium maydis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Pleurotus ostreatus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Arthrobotrys": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Verticillium lecanii": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Albugo tragopogonis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Tylenchorhynchus brevilineatus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Olpidium brnovanus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Diaphorina": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Badnavirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ceratostomella paradoxa": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Xiphinema diversicaudatum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "vesicatoria": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ophiostoma ulmi": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Blumeria gramninis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Boletus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Peronospora tabaci": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Neovossia": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Cladosporium": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Fusarium sambucinum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Puccinia tritici": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Tilletia foetida": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Vibrio comma": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Helminthosporium sacchari": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Solanum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ustilago avenae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Scirtothrips dorsalis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Trichoderma hamatum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Albugo crucifearum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Rhopalosiphum maidis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Cercospora nicotianae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Colletotrichum curcumae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Phytophthora citrophthora": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Toxoptera aurantii": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Gibberella fujikoroi": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Alternaria chartarum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Mycosphaerella musicolla": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Cercospora musae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Gloeosporium ampelophagum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Cercospora punicae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Puccinia penisseti": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Glomerella cingnlata": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Rhadinaphelenchus cocophilus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Hemileia vastarix": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ramularia": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ramularia foeniculi": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Sclerotium cepivorum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Burkholderia cepacia": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Empoasca devastans": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Streptomyces aureofaciens": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Diplocarpon": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Podosphaera pannosa": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Sphaerotheca fuliginea": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Corynebacterium cepedonicum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Cercospora curcumae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Penicillium notatum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Pythium ultimum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "C. arachidicola": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Corynebacterium tritici": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Gelidium": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Drechslera oryzae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Mucor mucedo": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Phragmidium mucronatum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Erwinia chrysanthemi": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Alternaria radicina": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Blumeria graninis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "hordei": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Athelia bombacina": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Talaromyces": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Pseudoperonospora": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "T. uncinatum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Capnodium": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "P. griseofulvum": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Xylaria digitata": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Xylaria longipes": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "T. viride": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "A. solani": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "V. albo-atrum": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Diplodia": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Armillaria gallica": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Ustilago maidis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Amanita virosa": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Neurospora tetrasperma": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Drosophila": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Penicillium puberulum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "S. aureofaciens": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "S. scabies": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "S. nodosus": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Erwinia crotovora": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Gallionella": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "P. aeruginosa": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Orobanche aegytiaca": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Monilinia fructicola": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Uromyces hobsoni": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Citrus aurantifolia": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Botryodiplodia palmarum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Oidium azadiractae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Verticillium theobromae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "P. palmivora": {
+   "count": 2,
+   "datasets": {
+    "questions": 1,
+    "references": 1
+   }
+  },
+  "Erysiphe cichoraceraum": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Tymovirus": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Pseudomonas cichorii": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Xanthomonas vignicola": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "vignicola": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Agrobacterium tumifaciens": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Erwinia caratavora": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Clavibacter michiganense": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Criconemella": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "sesami": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Xanthomonas albileneans": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Erwinia cartovora": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Alternaria cassiae": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Colletotrichum coccodes": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "Bacillus sbutilis": {
+   "count": 2,
+   "datasets": {
+    "questions": 2
+   }
+  },
+  "C. fusiformis": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "H. sacchari": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "Rathayibacter": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "Burkholderia": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "Acidovorax": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "Pantoea": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "X. citri": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "P. italicum": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "P. digitatum": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "A. gossypii": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "C. gloeosporioides": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "P. ultimum": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "X. coxi": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "X. diversicaudatum": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "X. americanum": {
+   "count": 2,
+   "datasets": {
+    "references": 2
+   }
+  },
+  "Rhodococcus": {
+   "count": 1,
+   "datasets": {
+    "protocols": 1
+   }
+  },
+  "P. cichorii": {
+   "count": 1,
+   "datasets": {
+    "protocols": 1
+   }
+  },
+  "P. marginalis": {
+   "count": 1,
+   "datasets": {
+    "protocols": 1
+   }
+  },
+  "C. quinoa": {
+   "count": 1,
+   "datasets": {
+    "protocols": 1
+   }
+  },
+  "Datura metel": {
+   "count": 1,
+   "datasets": {
+    "protocols": 1
+   }
+  },
+  "M. javanica": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "M. arenaria": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "M. hapla": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "A. besseyi": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Helicotylenchus": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Helicotylenchus dihystera": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Hoplolaimus indicus": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Bursaphelenchus xylophilus": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Aphelenchoides ritzemabosi": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "H. cajani": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Hoplolaimus": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Globodera pallida": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "H. glycines": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "H. schachtii": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Pochonia chlamydosporia": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Verticillium chlamydosporium": {
+   "count": 1,
+   "datasets": {
+    "quiz-nematology": 1
+   }
+  },
+  "Alternaria citri": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "P. parasitica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "P. viticola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Clavibacter flaccumfaciens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas euvesicatoria": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas marginalis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Phakopsora euvitis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Dickeya solani": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Frankliniella": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Nilaparvata": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Tylenchulus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pratylenchus thornei": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alphacryptovirus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bipolaris sacchari": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Glomerella graminicola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "M. grisea": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pyrenophora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Graphium": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Physalospora tucumanensis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Magnaporthe salvinii": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Phaeoisariopsis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erysiphe necator": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Dickeya dadantii": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Chenopodium album": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Triticum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pisum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas vesicatoria": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas vasculorum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas cucurbitae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Acidovorax citrulli": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "musacearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas musacearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "U. tritici": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "F. graminearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Claviceps africana": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Corticium salmonicolor": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Vibrio fischeri": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alfamovirus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium comlpex": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Lentinus edodes": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus radicicola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Diplodia netalensis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Heterodera trifolii": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum mangiferae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Empoasca papayae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Empoasca stevensi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Uromyces dianthi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Sclerospora maydis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Sclerospora sorghi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Peronosclerospora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Aphelenchoides arachidis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Scutellonema cavenessi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Diabrotica undecimpunctata": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Toxoptera": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Physoderma corchori": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Sphacelotheca eriauthi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xiphinema americum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xiphinema coxi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ceratocystis fagacearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xylophilus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Serratia": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pisum sativum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Amanita pantherina": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pestalotia theae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Claviceps microcephala": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Vibrio parahemolyticus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas aeroginosa": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Verticillium lacani": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus substillis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Arthrobacter": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Puccinia siriiformis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alternaria poori": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ustilago sciaminea": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Triticum aestivum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Puccinia avenae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cercospora ricini": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alternaria carthami": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Rhizoctonia balaticola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Aphis maidis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium cubense": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pythium myriotylum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pythium graminicolum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium vasinfectum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium gramineum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Puccinia pennisetti": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Claviceps fisiformis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cuscuta reflexa": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erwinia amylora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum gleosporiodes": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Oidium piperis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alternaria raphi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bemisia tabacci": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Trichoderma viridea": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum gloesporioides": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "cubensis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "javanica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Helminthosporium indica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alternaria indica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Sphaerotheca fuligina": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Heterodera avanae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cephaleuros mycoidea": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Taphrina muculans": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum gleosporioides": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erysiphe chicoracearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Alternaria cyamopsidis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "cyamopsidis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Verticillium lacuni": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Sclerotium rolfssii": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erwinia amulovora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bemisia tabici": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas solanacerum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Streptomyces flaveolus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum gloeosporoides": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Heterodera tritici": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Aphis crassivora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Streptomyces fradiae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Streptomyces erythreus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Phytophthora katsurae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Clostridium tetani": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Diplodia natalensis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum acutatum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Colletotrichum dematium": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Curvularia lunata": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Penicillium funiculosum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Penicillium italicum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Periconia sacchari": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium nivale": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Phyllosticta sojaecola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Corynebacterium michiganense": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Corynebacterium michiganensis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Uromyces ciceris": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas alcaligens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus putida": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Peronospora sorghi": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Botrytis alli": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Saccharum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Echinochloa colona": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Echinochloa crusgalli": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Trichodorus allivus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Paralongidorus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas stewartii": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Thrips plami": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Serratia marcescens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas chlororaphis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas aureofaciens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Thermus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium lycopersici": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Septoria nodorum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "M. lini": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ascochyta rabiae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Taphrina": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Gloeosporium": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Stemphylium solani": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cercospora melongena": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Scutellospora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Peziza": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Schizosaccharomyces": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Schizosaccharomyces pombe": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Aspergillus ochraceus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "A. tamari": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "P. notatum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ophiostoma": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Drechslera oryza": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "A. tenuis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "A. citri": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "V. dahliae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Agaricus campestris": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "A. phalloides": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pisolithus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Scleroderma": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Beauveria": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Physoderma maidis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Exobasidium japonicum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Rhizopus nigricans": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pleospora": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ralstonia bataticola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas compestries": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "compestries": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Venturia inequalis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "S. rimosus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erwinia trachiephila": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Xanthomonas malvacearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas solnacearum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas sysringae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas translucens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erwinia campestris": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus cereus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Thrips niligiriensis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas fluoroscens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Dendrophthoe vitellina": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Dendrophthoe pentandra": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Dendrophthoe": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "S. asiatica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cuscuta esculentus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Orobanche squamosa": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Orobanche atroseptica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Plasmodiophora brassica": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Synchytrium endobiticum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Puccinia grminis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Penicillium rubrum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ustilago midis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Monilinia fruticola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cercosporidium personatium": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Lentinus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Macrophomina phasolina": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ephelis oryzae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Drechslera sacchari": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cercospora nicotinae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Peronospora brassicae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Sclerospora destructor": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Uromyces jasminae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Monilinia laxa": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Uncinula necatar": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Diplocarpon rosae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Phyllosticta": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Erysiphe chichoracerum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "F. solani": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "F. moniliformae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Cephaleuros": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "M. persicae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Myzus persici": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fijivirus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Vitivirus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Olpidium brasiccae": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus thurengenesis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus vignicola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas vignicola": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Pseudomonas solanaceaum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Podosphaera leuchotricha": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus subtilus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Ralstonia solanaceraum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Bacillus substilis": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Frankia": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Jassus indicus": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium oxisporium": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "A. tumifaciens": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Fusarium semitectum": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Verticillium chalmydosporium": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "Verticillium lecani": {
+   "count": 1,
+   "datasets": {
+    "questions": 1
+   }
+  },
+  "B. maydis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "S. sorghi": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "R. bataticola": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "M. musicola": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "M. fijiensis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Phaeoisariopsis personata": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Phyllosticta maydis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Pantoea stewartii": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Physoderma": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Choanephora": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. colocasiae": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. cactorum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Oidiopsis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "S. cerevisiae": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "S. halstedii": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "S. kanamyceticus": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Citrus sinensis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. striiformis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. triticina": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. purpurea": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. penniseti": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Talaromyces flavus": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "E. amylovora": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "A. rhizogenes": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. ostreatus": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Tuber magnatum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Tuber aestivum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Tuber uncinatum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Tuber indicum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "Tuber himalayensis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "A. caesarea": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "L. elongatus": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "X. brevicolle": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. infestans": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "H. carbonum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "H. maydis": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "A. nidulans": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "F. proliferatum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. citrinum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  },
+  "P. rubrum": {
+   "count": 1,
+   "datasets": {
+    "references": 1
+   }
+  }
+ },
+ "ambiguous": {
+  "binomial_only_left_roman": {
+   "Thrips": {
+    "count": 79,
+    "examples": [
+     "questions: …Thrips…",
+     "questions: …Thrips…"
+    ]
+   },
+   "Citrus canker": {
+    "count": 37,
+    "examples": [
+     "questions: …Citrus canker is caused by:…",
+     "questions: …Citrus canker…"
+    ]
+   },
+   "Citrus tristeza": {
+    "count": 35,
+    "examples": [
+     "questions: …Citrus tristeza virus is classified as a:…",
+     "questions: …irus     — e.g. Citrus tristeza, aphid-borne.…"
+    ]
+   },
+   "Citrus": {
+    "count": 23,
+    "examples": [
+     "questions: …— Canker of Citrus.…",
+     "questions: …eening (HLB) of Citrus.…"
+    ]
+   },
+   "Citrus exocortis": {
+    "count": 22,
+    "examples": [
+     "questions: …Citrus exocortis viroid…",
+     "questions: …Citrus exocortis viroid…"
+    ]
+   },
+   "Citrus greening": {
+    "count": 22,
+    "examples": [
+     "questions: …Citrus greening (HLB) is associated with the phloe…",
+     "questions: …Citrus greening (Huanglongbing) is associated with…"
+    ]
+   },
+   "Citrus stubborn": {
+    "count": 6,
+    "examples": [
+     "questions: …Citrus stubborn disease is caused by a helical, wa…",
+     "questions: …Citrus stubborn disease is caused by the helical,…"
+    ]
+   },
+   "Citrus is": {
+    "count": 6,
+    "examples": [
+     "questions: …sm of Canker of Citrus is:…",
+     "questions: …eening (HLB) of Citrus is:…"
+    ]
+   },
+   "Phoma": {
+    "count": 4,
+    "examples": [
+     "questions: …Pycnidium     — Phoma, Septoria, Ascochyta.…",
+     "questions: …Phoma…"
+    ]
+   },
+   "Glomus": {
+    "count": 4,
+    "examples": [
+     "questions: …Glomus…",
+     "questions: …Answer:     Glomus.…"
+    ]
+   },
+   "Citrus variegated": {
+    "count": 4,
+    "examples": [
+     "questions: …Citrus variegated chlorosis is caused by…",
+     "references: …Citrus variegated chlorosis; olive quick decline…"
+    ]
+   },
+   "Citrus viroid": {
+    "count": 4,
+    "examples": [
+     "references: …id CDVd 294,297 Citrus viroid V CVd-V 284 Citrus viroid VI CVd-VI…",
+     "references: …oid V CVd-V 284 Citrus viroid VI CVd-VI 330                  yell…"
+    ]
+   },
+   "Datura": {
+    "count": 3,
+    "examples": [
+     "questions: …Chenopodium and Datura…",
+     "questions: …Chenopodium and Datura     — reliable local-lesion or systemic re…"
+    ]
+   },
+   "Citrus gummosis": {
+    "count": 3,
+    "examples": [
+     "questions: …Citrus gummosis caused by                    .…",
+     "questions: …Citrus gummosis is caused by:…"
+    ]
+   },
+   "Citrus scab": {
+    "count": 2,
+    "examples": [
+     "questions: …Citrus scab is caused by…",
+     "questions: …Citrus scab is caused by…"
+    ]
+   },
+   "Citrus slow": {
+    "count": 2,
+    "examples": [
+     "questions: …Citrus slow decline is caused by…",
+     "questions: …Citrus slow decline is caused by…"
+    ]
+   },
+   "Citrus decline": {
+    "count": 2,
+    "examples": [
+     "questions: …Citrus decline…",
+     "questions: …Citrus decline…"
+    ]
+   },
+   "Candida": {
+    "count": 2,
+    "examples": [
+     "questions: …Candida…",
+     "questions: …Answer:     Candida.…"
+    ]
+   },
+   "Citrus strubborn": {
+    "count": 2,
+    "examples": [
+     "questions: …Citrus strubborn…",
+     "questions: …Answer:     Citrus strubborn.…"
+    ]
+   },
+   "Oidium sp": {
+    "count": 2,
+    "examples": [
+     "questions: …Oidium sp.…",
+     "questions: …Answer:     Oidium sp..…"
+    ]
+   },
+   "Citrus tristiza": {
+    "count": 2,
+    "examples": [
+     "questions: …PVX & Citrus tristiza viruses…",
+     "questions: …Citrus tristiza, Potato virus Y, Tomato leaf curl…"
+    ]
+   },
+   "Citrus bark": {
+    "count": 2,
+    "examples": [
+     "references: …342 Cocadviroid Citrus bark cracking viroid CBCVd 284…",
+     "references: …Citrus bark cracking viroid…"
+    ]
+   },
+   "Citrus bent": {
+    "count": 2,
+    "examples": [
+     "references: …viroid AGVd 369 Citrus bent leaf viroid CBLVd 315,318 Citrus dwar…",
+     "references: …Citrus bent leaf viroid                       CBL…"
+    ]
+   },
+   "Citrus dwarfing": {
+    "count": 2,
+    "examples": [
+     "references: …d CBLVd 315,318 Citrus dwarfing viroid CDVd 294,297 Citrus viroid…",
+     "references: …Citrus dwarfing viroid                       CDVd…"
+    ]
+   },
+   "Citrus foliocellosis": {
+    "count": 2,
+    "examples": [
+     "references: …Citrus foliocellosis…",
+     "references: …(Citrus foliocellosis = little leaf = frenching =…"
+    ]
+   },
+   "Citrus nematode": {
+    "count": 2,
+    "examples": [
+     "references: …Citrus nematode…",
+     "references: …Citrus nematode                       Sedentary s…"
+    ]
+   },
+   "Thrips in": {
+    "count": 1,
+    "examples": [
+     "questions: …Thrips in a propagative way…"
+    ]
+   },
+   "Thrips exclusively": {
+    "count": 1,
+    "examples": [
+     "questions: …Thrips exclusively as vectors…"
+    ]
+   },
+   "Oryza and": {
+    "count": 1,
+    "examples": [
+     "questions: …Oryza and Triticum…"
+    ]
+   },
+   "Oidium": {
+    "count": 1,
+    "examples": [
+     "questions: …Oidium…"
+    ]
+   },
+   "Citrus dieback": {
+    "count": 1,
+    "examples": [
+     "questions: …Citrus dieback / decline in India is best describe…"
+    ]
+   },
+   "Citrus leaf": {
+    "count": 1,
+    "examples": [
+     "questions: …Citrus leaf miner…"
+    ]
+   },
+   "Citrus green": {
+    "count": 1,
+    "examples": [
+     "questions: …Citrus green aphid…"
+    ]
+   },
+   "Hibiscus spp": {
+    "count": 1,
+    "examples": [
+     "questions: …Hibiscus spp.…"
+    ]
+   },
+   "Citrus exocartis": {
+    "count": 1,
+    "examples": [
+     "questions: …Citrus exocartis is transmitted through…"
+    ]
+   },
+   "Candida is": {
+    "count": 1,
+    "examples": [
+     "questions: …Candida is pathogenic to human in…"
+    ]
+   },
+   "Citrus withertip": {
+    "count": 1,
+    "examples": [
+     "questions: …Citrus withertip…"
+    ]
+   },
+   "Phoma spp": {
+    "count": 1,
+    "examples": [
+     "questions: …Phoma spp…"
+    ]
+   },
+   "Citrus stubbone": {
+    "count": 1,
+    "examples": [
+     "questions: …Citrus stubbone disease is caused by………………"
+    ]
+   },
+   "Dahlia is": {
+    "count": 1,
+    "examples": [
+     "questions: …Crown gall of Dahlia is caused by…"
+    ]
+   },
+   "Citrus psorosis": {
+    "count": 1,
+    "examples": [
+     "references: …Citrus psorosis                      No known vec…"
+    ]
+   },
+   "Citrus bacterial": {
+    "count": 1,
+    "examples": [
+     "references: …Citrus bacterial spot                      Monotr…"
+    ]
+   },
+   "Citrus trifoliate": {
+    "count": 1,
+    "examples": [
+     "references: …Citrus trifoliate…"
+    ]
+   },
+   "Citrus orchards": {
+    "count": 1,
+    "examples": [
+     "references: …Citrus orchards…"
+    ]
+   },
+   "Citrus mottling": {
+    "count": 1,
+    "examples": [
+     "references: …Citrus mottling…"
+    ]
+   },
+   "Tuber": {
+    "count": 1,
+    "examples": [
+     "references: …Tuber                       Truffles (in India Gu…"
+    ]
+   }
+  },
+  "possible_epithet_misspellings": {
+   "campestri": {
+    "probably": "campestris",
+    "occurrences": 23
+   },
+   "viride": {
+    "probably": "viciae",
+    "occurrences": 9
+   },
+   "citricidus": {
+    "probably": "citricida",
+    "occurrences": 8
+   },
+   "moniliformae": {
+    "probably": "moniliforme",
+    "occurrences": 8
+   },
+   "amaranticolor": {
+    "probably": "amaranthicolor",
+    "occurrences": 7
+   },
+   "auxonopodis": {
+    "probably": "axonopodis",
+    "occurrences": 7
+   },
+   "americanum": {
+    "probably": "americana",
+    "occurrences": 6
+   },
+   "solanaceaum": {
+    "probably": "solanacearum",
+    "occurrences": 6
+   },
+   "albo-atrum": {
+    "probably": "alboatrum",
+    "occurrences": 5
+   },
+   "padi": {
+    "probably": "pisi",
+    "occurrences": 5
+   },
+   "africana": {
+    "probably": "americana",
+    "occurrences": 4
+   },
+   "amylowora": {
+    "probably": "amylovora",
+    "occurrences": 4
+   },
+   "caricae": {
+    "probably": "arecae",
+    "occurrences": 4
+   },
+   "cucmeris": {
+    "probably": "cucumeris",
+    "occurrences": 4
+   },
+   "lycopersici": {
+    "probably": "lycopersicum",
+    "occurrences": 4
+   },
+   "solanacerum": {
+    "probably": "solanacearum",
+    "occurrences": 4
+   },
+   "vignicola": {
+    "probably": "viticola",
+    "occurrences": 4
+   },
+   "citrinum": {
+    "probably": "citrina",
+    "occurrences": 3
+   },
+   "compestris": {
+    "probably": "campestris",
+    "occurrences": 3
+   },
+   "coxi": {
+    "probably": "coli",
+    "occurrences": 3
+   },
+   "falcata": {
+    "probably": "falcatum",
+    "occurrences": 3
+   },
+   "gossypi": {
+    "probably": "gossypii",
+    "occurrences": 3
+   },
+   "gosypii": {
+    "probably": "gossypii",
+    "occurrences": 3
+   },
+   "nigranervosa": {
+    "probably": "nigronervosa",
+    "occurrences": 3
+   },
+   "oxisporum": {
+    "probably": "oxysporum",
+    "occurrences": 3
+   },
+   "palmiera": {
+    "probably": "palmivora",
+    "occurrences": 3
+   },
+   "psylla": {
+    "probably": "pusilla",
+    "occurrences": 3
+   },
+   "rolfsi": {
+    "probably": "rolfsii",
+    "occurrences": 3
+   },
+   "scitaminae": {
+    "probably": "scitaminea",
+    "occurrences": 3
+   },
+   "striformis": {
+    "probably": "striiformis",
+    "occurrences": 3
+   },
+   "tumifaciens": {
+    "probably": "tumefaciens",
+    "occurrences": 3
+   },
+   "albileneans": {
+    "probably": "albilineans",
+    "occurrences": 2
+   },
+   "caratavora": {
+    "probably": "caratovora",
+    "occurrences": 2
+   },
+   "cartovora": {
+    "probably": "carotovora",
+    "occurrences": 2
+   },
+   "cepedonicum": {
+    "probably": "sepedonicus",
+    "occurrences": 2
+   },
+   "cichoraceraum": {
+    "probably": "cichoracearum",
+    "occurrences": 2
+   },
+   "cingnlata": {
+    "probably": "cingulata",
+    "occurrences": 2
+   },
+   "coccodes": {
+    "probably": "coccoides",
+    "occurrences": 2
+   },
+   "comma": {
+    "probably": "common",
+    "occurrences": 2
+   },
+   "crotovora": {
+    "probably": "carotovora",
+    "occurrences": 2
+   },
+   "crucifearum": {
+    "probably": "cruciferarum",
+    "occurrences": 2
+   },
+   "digitata": {
+    "probably": "digitatum",
+    "occurrences": 2
+   },
+   "fujikoroi": {
+    "probably": "fujikuroi",
+    "occurrences": 2
+   },
+   "gallica": {
+    "probably": "pallida",
+    "occurrences": 2
+   },
+   "gramninis": {
+    "probably": "graminis",
+    "occurrences": 2
+   },
+   "graninis": {
+    "probably": "graminis",
+    "occurrences": 2
+   },
+   "hamatum": {
+    "probably": "hamatus",
+    "occurrences": 2
+   },
+   "musicolla": {
+    "probably": "musicola",
+    "occurrences": 2
+   },
+   "radicina": {
+    "probably": "radicola",
+    "occurrences": 2
+   },
+   "sbutilis": {
+    "probably": "subtilis",
+    "occurrences": 2
+   },
+   "vastarix": {
+    "probably": "vastatrix",
+    "occurrences": 2
+   },
+   "aeroginosa": {
+    "probably": "aeruginosa",
+    "occurrences": 1
+   },
+   "alli": {
+    "probably": "xyli",
+    "occurrences": 1
+   },
+   "amulovora": {
+    "probably": "amylovora",
+    "occurrences": 1
+   },
+   "amylora": {
+    "probably": "amylovora",
+    "occurrences": 1
+   },
+   "atroseptica": {
+    "probably": "atrosepticum",
+    "occurrences": 1
+   },
+   "avanae": {
+    "probably": "avenae",
+    "occurrences": 1
+   },
+   "balaticola": {
+    "probably": "bataticola",
+    "occurrences": 1
+   },
+   "brasiccae": {
+    "probably": "brassicae",
+    "occurrences": 1
+   },
+   "brassica": {
+    "probably": "brassicae",
+    "occurrences": 1
+   },
+   "cereus": {
+    "probably": "terreus",
+    "occurrences": 1
+   },
+   "chichoracerum": {
+    "probably": "cichoracearum",
+    "occurrences": 1
+   },
+   "chicoracearum": {
+    "probably": "cichoracearum",
+    "occurrences": 1
+   },
+   "chlamydosporium": {
+    "probably": "chlamydosporia",
+    "occurrences": 1
+   },
+   "compestries": {
+    "probably": "campestris",
+    "occurrences": 1
+   },
+   "crassivora": {
+    "probably": "craccivora",
+    "occurrences": 1
+   },
+   "endobiticum": {
+    "probably": "endobioticum",
+    "occurrences": 1
+   },
+   "euvitis": {
+    "probably": "vitis",
+    "occurrences": 1
+   },
+   "fisiformis": {
+    "probably": "fusiformis",
+    "occurrences": 1
+   },
+   "fluoroscens": {
+    "probably": "fluorescens",
+    "occurrences": 1
+   },
+   "fruticola": {
+    "probably": "fructicola",
+    "occurrences": 1
+   },
+   "fuligina": {
+    "probably": "fulgida",
+    "occurrences": 1
+   },
+   "gleosporiodes": {
+    "probably": "gloeosporioides",
+    "occurrences": 1
+   },
+   "gleosporioides": {
+    "probably": "gloeosporioides",
+    "occurrences": 1
+   },
+   "gloeosporoides": {
+    "probably": "gloeosporioides",
+    "occurrences": 1
+   },
+   "gramineum": {
+    "probably": "graminearum",
+    "occurrences": 1
+   },
+   "grminis": {
+    "probably": "graminis",
+    "occurrences": 1
+   },
+   "indicum": {
+    "probably": "indicus",
+    "occurrences": 1
+   },
+   "inequalis": {
+    "probably": "inaequalis",
+    "occurrences": 1
+   },
+   "lacani": {
+    "probably": "cajani",
+    "occurrences": 1
+   },
+   "leuchotricha": {
+    "probably": "leucotricha",
+    "occurrences": 1
+   },
+   "midis": {
+    "probably": "maidis",
+    "occurrences": 1
+   },
+   "necatar": {
+    "probably": "necator",
+    "occurrences": 1
+   },
+   "nicotinae": {
+    "probably": "nicotianae",
+    "occurrences": 1
+   },
+   "nodorum": {
+    "probably": "nodosus",
+    "occurrences": 1
+   },
+   "oryza": {
+    "probably": "oryzae",
+    "occurrences": 1
+   },
+   "oxisporium": {
+    "probably": "oxysporium",
+    "occurrences": 1
+   },
+   "papayae": {
+    "probably": "papaya",
+    "occurrences": 1
+   },
+   "persici": {
+    "probably": "persicae",
+    "occurrences": 1
+   },
+   "personatium": {
+    "probably": "personatum",
+    "occurrences": 1
+   },
+   "phasolina": {
+    "probably": "phaseolina",
+    "occurrences": 1
+   },
+   "piperis": {
+    "probably": "ciceris",
+    "occurrences": 1
+   },
+   "plami": {
+    "probably": "ulmi",
+    "occurrences": 1
+   },
+   "poori": {
+    "probably": "porri",
+    "occurrences": 1
+   },
+   "rabiae": {
+    "probably": "rabiei",
+    "occurrences": 1
+   },
+   "radicicola": {
+    "probably": "radicola",
+    "occurrences": 1
+   },
+   "rolfssii": {
+    "probably": "rolfsii",
+    "occurrences": 1
+   },
+   "sciaminea": {
+    "probably": "scitaminea",
+    "occurrences": 1
+   },
+   "siriiformis": {
+    "probably": "striiformis",
+    "occurrences": 1
+   },
+   "solanaceraum": {
+    "probably": "solanacearum",
+    "occurrences": 1
+   },
+   "solnacearum": {
+    "probably": "solanacearum",
+    "occurrences": 1
+   },
+   "substilis": {
+    "probably": "subtilis",
+    "occurrences": 1
+   },
+   "substillis": {
+    "probably": "subtilis",
+    "occurrences": 1
+   },
+   "subtilus": {
+    "probably": "subtilis",
+    "occurrences": 1
+   },
+   "sysringae": {
+    "probably": "syringae",
+    "occurrences": 1
+   },
+   "tabacci": {
+    "probably": "tabaci",
+    "occurrences": 1
+   },
+   "tabici": {
+    "probably": "tabaci",
+    "occurrences": 1
+   },
+   "thornei": {
+    "probably": "hordei",
+    "occurrences": 1
+   },
+   "trachiephila": {
+    "probably": "tracheiphila",
+    "occurrences": 1
+   },
+   "trifolii": {
+    "probably": "trifolium",
+    "occurrences": 1
+   },
+   "undecimpunctata": {
+    "probably": "duodecimpunctata",
+    "occurrences": 1
+   },
+   "brassicola": {
+    "probably": "basicola",
+    "occurrences": 0
+   },
+   "papyae": {
+    "probably": "papaya",
+    "occurrences": 0
+   },
+   "piriformis": {
+    "probably": "nidiformis",
+    "occurrences": 0
+   },
+   "subtilius": {
+    "probably": "subtilis",
+    "occurrences": 0
+   },
+   "zea": {
+    "probably": "zeae",
+    "occurrences": 0
+   }
+  },
+  "possible_genus_misspellings_left_roman": {
+   "Phytopthora": {
+    "count": 8,
+    "examples": [
+     "questions: …hnism found in Phytopthora spp.…",
+     "questions: …Phytopthora infestans…"
+    ]
+   },
+   "Xanthomanas": {
+    "count": 8,
+    "examples": [
+     "questions: …Xanthomanas translucens…",
+     "questions: …Answer:     Xanthomanas translucens.…"
+    ]
+   },
+   "Xiphenema": {
+    "count": 2,
+    "examples": [
+     "questions: …Xiphenema index…",
+     "questions: …Answer:     Xiphenema index.…"
+    ]
+   },
+   "Barberis": {
+    "count": 1,
+    "examples": [
+     "questions: …Eradication of Barberis plants…"
+    ]
+   },
+   "Plasmapara": {
+    "count": 1,
+    "examples": [
+     "questions: …Plasmapara vitivola in grapes…"
+    ]
+   },
+   "Xanthomona": {
+    "count": 1,
+    "examples": [
+     "questions: …Xanthomona citri…"
+    ]
+   },
+   "Trichodorous": {
+    "count": 1,
+    "examples": [
+     "questions: …transmitted by Trichodorous.…"
+    ]
+   }
+  }
+ },
+ "totals": {
+  "binomial": 4093,
+  "genus": 2457,
+  "abbreviated": 254,
+  "infraspecific": 309,
+  "existing_italics": 9260,
+  "names_italicised": 7113,
+  "distinct_names": 993
+ },
+ "ambiguous_summary": {
+  "binomial_only_left_roman": {
+   "distinct": 46,
+   "occurrences": 296
+  },
+  "possible_epithet_misspellings": {
+   "distinct": 116,
+   "occurrences": 254
+  },
+  "possible_genus_misspellings_left_roman": {
+   "distinct": 7,
+   "occurrences": 22
+  }
+ },
+ "limitations": [
+  "Detection is dictionary-based: genera not in data/taxa.json stay roman (by design — false positives are worse than misses).",
+  "A genus followed by an unrecognised or misspelt epithet is italicised as a genus only; the epithet stays roman and is listed above.",
+  "Binomial-only names (Citrus, Datura, Oryza, …) stay roman unless a listed epithet follows.",
+  "Virus species names (e.g. \"Citrus tristeza virus\") are left roman; ICTV italicisation of virus species is not attempted.",
+  "Names split across HTML tags (for example by search highlighting) are not joined."
+ ]
+}
